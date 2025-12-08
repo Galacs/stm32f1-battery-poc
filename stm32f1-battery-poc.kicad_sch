@@ -3244,6 +3244,194 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_3_Bridged12"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_3_Bridged12"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_3_Bridged12_0_0"
+				(circle
+					(center -3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Bridged12_0_1"
+				(arc
+					(start -3.048 0.508)
+					(mid -1.651 0.9912)
+					(end -0.254 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Bridged12_1_1"
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_ST_STM32F1:STM32F103C8Tx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5890,6 +6078,18 @@
 		(uuid 39360f49-6a32-451a-9ef8-2e484bf917ff)
 	)
 	(rectangle
+		(start 63.5 118.11)
+		(end 86.36 154.94)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7c2c108b-773b-46cd-9a46-2b522b817bf5)
+	)
+	(rectangle
 		(start 123.19 172.72)
 		(end 154.94 194.31)
 		(stroke
@@ -5949,6 +6149,18 @@
 			)
 		)
 		(uuid "35a6fe59-6d60-4063-a08b-0a93dde44e4f")
+	)
+	(text "LDO select"
+		(exclude_from_sim no)
+		(at 74.422 151.384 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "6f8328fb-483e-46ca-a5fa-cad871e69157")
 	)
 	(text "LM78M 5V LDO"
 		(exclude_from_sim no)
@@ -6102,12 +6314,6 @@
 		(uuid "29480644-21a2-486e-98e4-a18035724922")
 	)
 	(junction
-		(at 50.8 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c1d516e-9236-4828-a0d7-ad6628e41dc8")
-	)
-	(junction
 		(at 29.21 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6168,6 +6374,12 @@
 		(uuid "5893e4ed-128e-4651-8744-dcc101baeb8c")
 	)
 	(junction
+		(at 69.85 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73d3814e-f1e2-4a7a-a176-4e29802c4609")
+	)
+	(junction
 		(at 90.17 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6208,6 +6420,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7feca13d-cbc2-45a8-a251-38c83521423b")
+	)
+	(junction
+		(at 50.8 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c6d79e1-c584-401c-be45-483bdf7519aa")
 	)
 	(junction
 		(at 40.64 167.64)
@@ -6607,6 +6825,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 128.27) (xy 82.55 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17006f33-32fa-4169-a9ff-85d615e4150f")
+	)
+	(wire
+		(pts
 			(xy 19.05 182.88) (xy 19.05 184.15)
 		)
 		(stroke
@@ -6847,6 +7075,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 127) (xy 73.66 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f9fd46b-bf9a-4b9b-a06e-b3c57c792c39")
+	)
+	(wire
+		(pts
 			(xy 160.02 87.63) (xy 148.59 87.63)
 		)
 		(stroke
@@ -6884,16 +7122,6 @@
 			(type default)
 		)
 		(uuid "3279b507-b13c-4249-8765-0de9d3e09153")
-	)
-	(wire
-		(pts
-			(xy 50.8 139.7) (xy 52.07 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3377c716-62ee-46bf-902b-fe8b8db79d70")
 	)
 	(wire
 		(pts
@@ -7064,6 +7292,16 @@
 			(type default)
 		)
 		(uuid "3eea72fd-613e-4408-bb22-e890298d2587")
+	)
+	(wire
+		(pts
+			(xy 69.85 135.89) (xy 69.85 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "424ede2e-e26e-4aa0-9c09-07331c2d8657")
 	)
 	(wire
 		(pts
@@ -7244,6 +7482,16 @@
 			(type default)
 		)
 		(uuid "4d5036eb-b0fe-44ec-8317-7326b731fa3e")
+	)
+	(wire
+		(pts
+			(xy 82.55 127) (xy 81.28 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d6252e8-57af-4989-91d0-0a39e698fc78")
 	)
 	(wire
 		(pts
@@ -7787,6 +8035,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 135.89) (xy 82.55 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8110330c-ec32-4e0d-85da-df03db5a9008")
+	)
+	(wire
+		(pts
 			(xy 109.22 72.39) (xy 107.95 72.39)
 		)
 		(stroke
@@ -7884,6 +8142,16 @@
 			(type default)
 		)
 		(uuid "88d1bbe1-4580-49f1-976d-162957359bcd")
+	)
+	(wire
+		(pts
+			(xy 50.8 139.7) (xy 63.5 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "895ecc08-e991-4a87-9670-d0fa82f63c04")
 	)
 	(wire
 		(pts
@@ -8457,6 +8725,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 125.73) (xy 69.85 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0ed1289-a0bf-4f05-a996-32324e76788b")
+	)
+	(wire
+		(pts
 			(xy 210.82 106.68) (xy 210.82 107.95)
 		)
 		(stroke
@@ -8594,16 +8872,6 @@
 			(type default)
 		)
 		(uuid "c853622e-eebd-4f45-99ad-c49e11eff0a0")
-	)
-	(wire
-		(pts
-			(xy 52.07 138.43) (xy 52.07 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8eb5f41-071e-496a-9d99-a5480bd106bd")
 	)
 	(wire
 		(pts
@@ -10837,6 +11105,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_3_Bridged12")
+		(at 69.85 139.7 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "153b8618-c9d0-4594-ad33-466782a7120f")
+		(property "Reference" "JP4"
+			(at 67.056 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_3_Bridged12"
+			(at 68.5801 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 69.85 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+			(at 69.85 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 69.85 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 69.85 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" ""
+			(at 69.85 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d15f33ed-fce8-4016-a3c8-b651d028e1b0")
+		)
+		(pin "1"
+			(uuid "4846ac63-7795-4c55-830e-33c05f8a20c6")
+		)
+		(pin "3"
+			(uuid "7d079190-b285-43cb-9e6a-a481ac090ab8")
+		)
+		(instances
+			(project "stm32f1-battery-poc"
+				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 40.64 165.1 0)
 		(unit 1)
@@ -11866,6 +12235,73 @@
 			(project "stm32f1-battery-poc"
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.55 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29a5f127-9d7e-437c-bc84-7cfed69f483c")
+		(property "Reference" "#PWR044"
+			(at 82.55 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8dcc39f-dd1b-4106-a13b-31a4d3830c8b")
+		)
+		(instances
+			(project "stm32f1-battery-poc"
+				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -14013,6 +14449,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 69.85 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7263fc69-29e7-47f2-aeb0-eabf552250d1")
+		(property "Reference" "#PWR043"
+			(at 69.85 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 69.85 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 69.85 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21f138e2-9f41-4b57-8c9b-230e4e59d127")
+		)
+		(instances
+			(project "stm32f1-battery-poc"
+				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 199.39 111.76 0)
 		(unit 1)
@@ -15122,6 +15624,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 77.47 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98914f52-2a08-4755-bf88-44b87e4eee90")
+		(property "Reference" "R23"
+			(at 77.47 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k1"
+			(at 77.47 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 77.47 128.778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 77.47 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF5101TCE"
+			(at 77.47 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 77.47 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25905"
+			(at 77.47 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d68d7468-6b22-4f91-8264-36887105958a")
+		)
+		(pin "2"
+			(uuid "52241165-81ad-4f57-acd9-35c22cfbc364")
+		)
+		(instances
+			(project "stm32f1-battery-poc"
+				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 260.35 71.12 90)
 		(unit 1)
@@ -15366,71 +15972,6 @@
 			(project ""
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
 					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 52.07 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a851f031-4882-4bed-952c-4af6d9bf22f6")
-		(property "Reference" "#PWR043"
-			(at 52.07 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 52.07 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 52.07 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6891e66e-6b1c-4ded-8e2f-475f95839a3b")
-		)
-		(instances
-			(project "stm32f1-battery-poc"
-				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -16101,10 +16642,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2056b89f-742c-435b-9fa0-c33b7ab94571")
+			(uuid "2056b89f-742c-435b-9fa0-c33b7ab94572")
 		)
 		(pin "2"
-			(uuid "2e5a2eb8-fec0-4596-a13a-86d8dc24f5c4")
+			(uuid "2e5a2eb8-fec0-4596-a13a-86d8dc24f5c5")
 		)
 		(instances
 			(project ""
@@ -17922,10 +18463,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a9dca731-a6bc-48d4-a7f2-ffa38e0657ab")
+			(uuid "a9dca731-a6bc-48d4-a7f2-ffa38e0657ac")
 		)
 		(pin "1"
-			(uuid "9ab5c697-21c0-4051-aefa-136ff27ed12c")
+			(uuid "9ab5c697-21c0-4051-aefa-136ff27ed12d")
 		)
 		(instances
 			(project ""
@@ -18067,6 +18608,118 @@
 			(project "stm32f1-battery-poc"
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 82.55 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff6471f3-1097-4fe4-b3c1-84a8b092ff66")
+		(property "Reference" "D6"
+			(at 78.232 132.588 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WHITE"
+			(at 78.486 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 82.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 82.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 82.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec "
+			(at 82.55 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KT-0603W"
+			(at 82.55 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 82.55 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2290"
+			(at 82.55 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09d89dc6-423c-495d-b93c-f7193db55971")
+		)
+		(pin "2"
+			(uuid "6bb944c5-7e7b-4c30-af4e-1a83238e981a")
+		)
+		(instances
+			(project "stm32f1-battery-poc"
+				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
+					(reference "D6")
 					(unit 1)
 				)
 			)
