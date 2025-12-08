@@ -4314,6 +4314,144 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:HT75xx-1-SOT89"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "HT75xx-1-SOT89"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+				(at 0 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.holtek.com/documents/10179/116711/HT75xx-1v250.pdf"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100mA Low Dropout Voltage Regulator, Fixed Output, SOT89"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "100mA LDO Regulator Fixed Positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?89*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HT75xx-1-SOT89_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "HT75xx-1-SOT89_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:LM78M05_TO252"
 			(pin_names
 				(offset 0.254)
@@ -5704,6 +5842,18 @@
 		(uuid 0a02ed4f-5bde-43e9-b258-4a8b097de79f)
 	)
 	(rectangle
+		(start 49.53 135.89)
+		(end 93.98 162.56)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 17120f18-9dd0-4b6c-8837-2fef95199701)
+	)
+	(rectangle
 		(start 179.07 90.17)
 		(end 281.94 162.56)
 		(stroke
@@ -5849,6 +5999,18 @@
 		)
 		(uuid "be2bcd18-616a-42cf-af34-5b9011c2e446")
 	)
+	(text "HT753-1 3V3 LDO"
+		(exclude_from_sim no)
+		(at 64.262 138.938 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "e4ffad29-c62e-494b-839a-88185fb45a4f")
+	)
 	(text "Indicator LEDs"
 		(exclude_from_sim no)
 		(at 264.668 82.55 0)
@@ -5940,6 +6102,12 @@
 		(uuid "29480644-21a2-486e-98e4-a18035724922")
 	)
 	(junction
+		(at 83.82 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c1d516e-9236-4828-a0d7-ad6628e41dc8")
+	)
+	(junction
 		(at 113.03 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5962,6 +6130,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3faeb369-ddff-4001-aee3-9ecd033e7fe6")
+	)
+	(junction
+		(at 60.96 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "409d9f34-1d2c-4f02-a082-e2f978cc3491")
 	)
 	(junction
 		(at 67.31 185.42)
@@ -6393,6 +6567,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 146.05) (xy 59.69 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13b1bec2-e7a7-4771-89e5-d3b203cdf196")
+	)
+	(wire
+		(pts
 			(xy 123.19 38.1) (xy 123.19 39.37)
 		)
 		(stroke
@@ -6703,6 +6887,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 147.32) (xy 85.09 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3377c716-62ee-46bf-902b-fe8b8db79d70")
+	)
+	(wire
+		(pts
 			(xy 245.11 139.7) (xy 245.11 146.05)
 		)
 		(stroke
@@ -6720,6 +6914,16 @@
 			(type default)
 		)
 		(uuid "3417d846-b45d-429f-8525-7fcdb71cc41d")
+	)
+	(wire
+		(pts
+			(xy 72.39 154.94) (xy 72.39 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "353bc98b-1a61-4ff6-a40e-7586baaf6359")
 	)
 	(wire
 		(pts
@@ -7283,6 +7487,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 156.21) (xy 83.82 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd3a201-7ab2-4417-ab74-abc77b82a1c6")
+	)
+	(wire
+		(pts
 			(xy 223.52 68.58) (xy 223.52 69.85)
 		)
 		(stroke
@@ -7290,6 +7504,16 @@
 			(type default)
 		)
 		(uuid "6e134a29-ebfc-424f-aed9-11b3b187b156")
+	)
+	(wire
+		(pts
+			(xy 60.96 156.21) (xy 60.96 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e187d75-ab88-49d9-94a3-f5676c8ef3a3")
 	)
 	(wire
 		(pts
@@ -7390,6 +7614,16 @@
 			(type default)
 		)
 		(uuid "73df07b0-6d35-4fad-aaef-26ef1dd881d5")
+	)
+	(wire
+		(pts
+			(xy 64.77 147.32) (xy 60.96 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74ac1c12-64b1-4f4e-80bd-f3b9f278b909")
 	)
 	(wire
 		(pts
@@ -7760,6 +7994,16 @@
 			(type default)
 		)
 		(uuid "92cb4f30-2ac4-40d5-a247-bcb6ec07b62b")
+	)
+	(wire
+		(pts
+			(xy 59.69 147.32) (xy 60.96 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "937889e0-850b-45fe-995b-27be103ad302")
 	)
 	(wire
 		(pts
@@ -8353,6 +8597,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 146.05) (xy 85.09 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8eb5f41-071e-496a-9d99-a5480bd106bd")
+	)
+	(wire
+		(pts
 			(xy 241.3 139.7) (xy 240.03 139.7)
 		)
 		(stroke
@@ -8390,6 +8644,16 @@
 			(type default)
 		)
 		(uuid "ca76fb2e-3ae3-4f01-9c33-048fdc562272")
+	)
+	(wire
+		(pts
+			(xy 83.82 147.32) (xy 80.01 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf74e32d-a07e-4a7e-838f-ad775d0ef8b3")
 	)
 	(wire
 		(pts
@@ -8520,6 +8784,16 @@
 			(type default)
 		)
 		(uuid "de8554fc-290f-4f61-9f26-b9c667da7fd5")
+	)
+	(wire
+		(pts
+			(xy 83.82 148.59) (xy 83.82 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dec5975f-d83f-46c7-8255-2f447df4bc72")
 	)
 	(wire
 		(pts
@@ -8760,6 +9034,16 @@
 			(type default)
 		)
 		(uuid "f2f02873-49c4-4173-8708-80a4a644bffa")
+	)
+	(wire
+		(pts
+			(xy 60.96 147.32) (xy 60.96 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f47b16f6-73fb-412f-9ce9-58e2472a0d77")
 	)
 	(wire
 		(pts
@@ -10683,6 +10967,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 59.69 146.05 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b80804c-dae9-48f9-b309-4a533c94e07c")
+		(property "Reference" "#PWR039"
+			(at 59.69 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 54.356 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 59.69 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97fbeac0-c787-4bb3-aed8-363433e62898")
+		)
+		(instances
+			(project "stm32f1-battery-poc"
+				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "GLCS:BQ77905")
 		(at 227.33 127 0)
 		(unit 1)
@@ -11792,6 +12142,76 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 83.82 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cf60a65-9a98-40eb-b216-f51f1870a179")
+		(property "Reference" "C23"
+			(at 87.63 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 87.63 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 84.7852 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 83.82 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fed322db-8615-4917-b890-2df056e919fc")
+		)
+		(pin "2"
+			(uuid "a9efd71f-1978-4e07-87cd-2c35b099e69c")
+		)
+		(instances
+			(project "stm32f1-battery-poc"
+				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 67.31 80.01 270)
 		(mirror x)
 		(unit 1)
@@ -12264,6 +12684,73 @@
 			(project "stm32f1-battery-poc"
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40187242-b835-498c-a690-81b9a95a7ef7")
+		(property "Reference" "#PWR041"
+			(at 72.39 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81cad3df-ecb2-4359-bd4c-2d9f7c54c07e")
+		)
+		(instances
+			(project "stm32f1-battery-poc"
+				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -13114,6 +13601,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:HT75xx-1-SOT89")
+		(at 72.39 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60368432-b53c-4ca8-9c53-eb5d692ddafe")
+		(property "Reference" "U5"
+			(at 67.056 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HT753-1"
+			(at 72.136 142.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 72.39 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.holtek.com/documents/10179/116711/HT75xx-1v250.pdf"
+			(at 72.39 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mA Low Dropout Voltage Regulator, Fixed Output, SOT89"
+			(at 72.39 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8cbf949-b6c6-497d-9335-a499aaace743")
+		)
+		(pin "2"
+			(uuid "ed90ef15-6b87-492d-98fd-7df533c83349")
+		)
+		(pin "3"
+			(uuid "1a85b994-9cd2-4dbe-b9cd-b8e9a7c957eb")
+		)
+		(instances
+			(project ""
+				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 59.69 36.83 0)
 		(unit 1)
@@ -13263,7 +13821,7 @@
 				)
 			)
 		)
-		(property "Value" "LM78M05_TO252"
+		(property "Value" "LM78M05"
 			(at 210.82 66.04 0)
 			(effects
 				(font
@@ -14814,6 +15372,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 85.09 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a851f031-4882-4bed-952c-4af6d9bf22f6")
+		(property "Reference" "#PWR043"
+			(at 85.09 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 85.09 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 85.09 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6891e66e-6b1c-4ded-8e2f-475f95839a3b")
+		)
+		(instances
+			(project "stm32f1-battery-poc"
+				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 204.47 96.52 90)
 		(unit 1)
@@ -15685,6 +16308,73 @@
 			(project "stm32f1-battery-poc"
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c28ceeae-5a8f-477b-981d-669b2ad5e40d")
+		(property "Reference" "#PWR040"
+			(at 60.96 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87a55e46-c69e-4c04-a4d2-9b30ce742366")
+		)
+		(instances
+			(project "stm32f1-battery-poc"
+				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -16702,6 +17392,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 83.82 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f090db19-2fc7-42dc-bdaa-12e1a943548d")
+		(property "Reference" "#PWR042"
+			(at 83.82 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b02bd179-3cd2-48a9-b287-beb62ea4a06a")
+		)
+		(instances
+			(project "stm32f1-battery-poc"
+				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 243.84 57.15 0)
 		(unit 1)
@@ -17034,6 +17791,76 @@
 			(project ""
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 152.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fcfaf40e-e7fa-4fab-83bc-c8735c56e89d")
+		(property "Reference" "C22"
+			(at 57.15 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 57.15 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.9948 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a8df7f6-a339-451f-bd4e-fde66c7bee68")
+		)
+		(pin "2"
+			(uuid "29e595dd-4968-4aef-964d-f00cbca8b57f")
+		)
+		(instances
+			(project "stm32f1-battery-poc"
+				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
+					(reference "C22")
 					(unit 1)
 				)
 			)
