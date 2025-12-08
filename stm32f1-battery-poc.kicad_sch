@@ -1700,6 +1700,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -5131,6 +5314,18 @@
 		(uuid 200ee760-0b4c-4c79-b065-288346fb4947)
 	)
 	(rectangle
+		(start 252.73 40.64)
+		(end 281.94 85.09)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 39360f49-6a32-451a-9ef8-2e484bf917ff)
+	)
+	(rectangle
 		(start 16.51 172.72)
 		(end 48.26 194.31)
 		(stroke
@@ -5201,6 +5396,31 @@
 			)
 		)
 		(uuid "a42dc7bd-63de-46d3-9387-1e1ad0be453f")
+	)
+	(text "Battery"
+		(exclude_from_sim no)
+		(at 268.478 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+				(color 132 132 132 1)
+			)
+		)
+		(uuid "be2bcd18-616a-42cf-af34-5b9011c2e446")
+	)
+	(text "Indicator LEDs"
+		(exclude_from_sim no)
+		(at 264.668 82.55 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "efac93e8-5f26-4cc6-a2e6-e1284af7bc0e")
 	)
 	(text "CAN Transceiver"
 		(exclude_from_sim no)
@@ -6184,6 +6404,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 66.04) (xy 270.51 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45dedce6-fe84-4817-a9ee-8f8a42cecdfd")
+	)
+	(wire
+		(pts
 			(xy 139.7 38.1) (xy 135.89 38.1)
 		)
 		(stroke
@@ -6474,6 +6704,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 45.72) (xy 260.35 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6adc5cca-1040-4e56-a459-77f3a2612803")
+	)
+	(wire
+		(pts
 			(xy 74.93 80.01) (xy 73.66 80.01)
 		)
 		(stroke
@@ -6671,6 +6911,16 @@
 			(type default)
 		)
 		(uuid "7b7db80a-5b66-40a7-89ef-c1a774abd37a")
+	)
+	(wire
+		(pts
+			(xy 270.51 57.15) (xy 270.51 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b809b8d-7300-4f06-9299-29267f2374ad")
 	)
 	(wire
 		(pts
@@ -6931,6 +7181,16 @@
 			(type default)
 		)
 		(uuid "9a3ce1bb-90f2-44b1-b4ce-9593db092163")
+	)
+	(wire
+		(pts
+			(xy 260.35 66.04) (xy 260.35 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bbb4770-2c99-4881-ae4e-f90825d58e26")
 	)
 	(wire
 		(pts
@@ -7224,6 +7484,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 57.15) (xy 260.35 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcbcdfac-c4d8-4938-80d0-894fb6ed0680")
+	)
+	(wire
+		(pts
 			(xy 132.08 85.09) (xy 120.65 85.09)
 		)
 		(stroke
@@ -7271,6 +7541,16 @@
 			(type default)
 		)
 		(uuid "c1226929-1be5-47dc-8f89-08e217976846")
+	)
+	(wire
+		(pts
+			(xy 270.51 74.93) (xy 270.51 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c20e4ec8-9386-4d82-b19a-4ed61abd50d7")
 	)
 	(wire
 		(pts
@@ -7361,6 +7641,16 @@
 			(type default)
 		)
 		(uuid "c749d7b3-8208-48a1-86c7-b33e03fda6ac")
+	)
+	(wire
+		(pts
+			(xy 260.35 74.93) (xy 260.35 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c764db6b-9367-4214-847e-646bfc434371")
 	)
 	(wire
 		(pts
@@ -9069,6 +9359,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 260.35 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14a57c5b-6fab-47fc-b72b-d6682eb7dca1")
+		(property "Reference" "#PWR028"
+			(at 260.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "BGND"
+			(at 260.35 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 260.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09874019-2854-4cd1-9842-4bdf02e2dfa2")
+		)
+		(instances
+			(project "stm32f1-battery-poc"
+				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 265.43 139.7 270)
 		(mirror x)
@@ -9252,6 +9608,71 @@
 			(project "stm32f1-battery-poc"
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 260.35 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1977e3c8-2a93-4ee8-ab27-74636ab065c3")
+		(property "Reference" "#PWR027"
+			(at 260.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 264.414 43.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 260.35 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b03e647-ffec-4938-9370-e7b489a97bf6")
+		)
+		(instances
+			(project "stm32f1-battery-poc"
+				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -9753,6 +10174,76 @@
 			(project ""
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 260.35 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "246a7c4d-29ac-4aaa-8e67-622ff6bf072b")
+		(property "Reference" "R18"
+			(at 262.89 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20k"
+			(at 262.89 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 258.572 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 260.35 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14ab3a38-b653-4978-a6de-ccc3a771e125")
+		)
+		(pin "2"
+			(uuid "24ac5899-6b3f-4ffe-8e81-9577f7d4bd85")
+		)
+		(instances
+			(project ""
+				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -12268,6 +12759,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 270.51 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d1ea9b5-8439-4818-bb9a-216d72fbb22d")
+		(property "Reference" "#PWR029"
+			(at 270.51 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 270.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "625adce4-41f5-430b-8488-afa9db123f7e")
+		)
+		(instances
+			(project "stm32f1-battery-poc"
+				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Zener")
 		(at 270.51 151.13 270)
 		(unit 1)
@@ -12435,6 +12993,227 @@
 			(project "stm32f1-battery-poc"
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 260.35 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "971bd868-d105-43b7-be6e-3cd9821647ab")
+		(property "Reference" "SW3"
+			(at 261.62 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 255.27 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
+			(at 255.27 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 260.35 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 260.35 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TS-1088-AR02016"
+			(at 260.35 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 260.35 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C720477"
+			(at 260.35 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "517fc5da-ef1d-422c-ac0c-2b2ca9e23305")
+		)
+		(pin "1"
+			(uuid "bc1e9b1f-5c0a-457b-9205-c397893de684")
+		)
+		(instances
+			(project "stm32f1-battery-poc"
+				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 260.35 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98eca181-572c-476f-a793-867ae962e213")
+		(property "Reference" "D3"
+			(at 264.16 71.4374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RED"
+			(at 264.16 73.9774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 260.35 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 260.35 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 260.35 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 260.35 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2286"
+			(at 260.35 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec "
+			(at 260.35 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KT-0603R"
+			(at 260.35 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "97d7db40-529a-4166-95aa-4e22aa3ceb75")
+		)
+		(pin "1"
+			(uuid "2297537e-28c3-434a-b1cd-2b09b3ca3c7d")
+		)
+		(instances
+			(project "stm32f1-battery-poc"
+				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -13520,6 +14299,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 270.51 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da249036-dfa0-4912-842b-985f0f2484d4")
+		(property "Reference" "R19"
+			(at 273.05 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20k"
+			(at 273.05 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 268.732 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 270.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc22cb8f-5ef9-452d-be1a-0dabba53cfe2")
+		)
+		(pin "2"
+			(uuid "9f33df05-4bc0-416b-b7e1-583148eeb6cf")
+		)
+		(instances
+			(project "stm32f1-battery-poc"
+				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 62.23 82.55 0)
 		(unit 1)
@@ -13830,6 +14679,187 @@
 			(project "stm32f1-battery-poc"
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 270.51 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e93846d8-378a-4843-a6fc-ba13da66a3f9")
+		(property "Reference" "D4"
+			(at 274.32 71.4374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 274.32 73.9774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 270.51 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 270.51 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 270.51 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec "
+			(at 270.51 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KT-0805G"
+			(at 270.51 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 270.51 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2297"
+			(at 270.51 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b22018c0-c2ae-4bbe-95f0-497d4200ba42")
+		)
+		(pin "2"
+			(uuid "c45965b3-bb5e-4dc6-931b-0289faa3cc72")
+		)
+		(instances
+			(project "stm32f1-battery-poc"
+				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 270.51 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "effd1148-3b80-4856-91c1-74c05dd6f239")
+		(property "Reference" "#PWR030"
+			(at 270.51 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 270.51 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 270.51 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e02dc66-0d1e-4727-9ebf-e551603bf39b")
+		)
+		(instances
+			(project "stm32f1-battery-poc"
+				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
