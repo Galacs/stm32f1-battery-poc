@@ -7929,6 +7929,18 @@
 		)
 		(uuid "80f260d0-15d9-43d0-b9e9-2c49bf607871")
 	)
+	(text "OCD1 = 10A\nOCD2 = 20A"
+		(exclude_from_sim no)
+		(at 197.104 160.274 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+				(color 132 132 132 1)
+			)
+		)
+		(uuid "9eddff61-5358-45fc-a5bb-9d7193cf15e7")
+	)
 	(text "STDC14 Debug"
 		(exclude_from_sim no)
 		(at 99.314 192.278 0)
@@ -21877,8 +21889,8 @@
 				)
 			)
 		)
-		(property "Value" "shunt"
-			(at 207.01 160.02 90)
+		(property "Value" "10m/1W"
+			(at 207.01 160.274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
