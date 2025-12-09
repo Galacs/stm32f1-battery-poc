@@ -460,6 +460,18 @@
     [
       "4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92",
       "Root"
+    ],
+    [
+      "fe49d06d-7afc-4ad2-a0dc-4ccf3b57cc7d",
+      "HW interface"
+    ],
+    [
+      "9b6644b9-5397-4892-98a5-01408259cfc5",
+      "HW interface1"
+    ],
+    [
+      "78df32ab-a826-4a8a-a807-1c1832d746a2",
+      "HW interface2"
     ]
   ],
   "text_variables": {}
