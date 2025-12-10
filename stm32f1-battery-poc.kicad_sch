@@ -10105,7 +10105,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 63.5) (xy 22.86 64.77)
+			(xy 22.86 58.42) (xy 22.86 59.69)
 		)
 		(stroke
 			(width 0)
@@ -10172,16 +10172,6 @@
 			(type default)
 		)
 		(uuid "5c55be3b-7629-4722-a5dd-4e8c7431e40a")
-	)
-	(wire
-		(pts
-			(xy 26.67 76.2) (xy 33.02 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c93c5e6-554b-4725-b2ac-6fbca55466ee")
 	)
 	(wire
 		(pts
@@ -11975,6 +11965,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 76.2) (xy 20.32 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9a7e4bf-fe99-4c35-af61-a2ab44c79294")
+	)
+	(wire
+		(pts
 			(xy 265.43 144.78) (xy 265.43 146.05)
 		)
 		(stroke
@@ -12015,7 +12015,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 72.39) (xy 22.86 73.66)
+			(xy 22.86 67.31) (xy 22.86 73.66)
 		)
 		(stroke
 			(width 0)
@@ -12202,6 +12202,16 @@
 			(type default)
 		)
 		(uuid "dcaef85d-8786-4c13-9105-16568f1cb3a2")
+	)
+	(wire
+		(pts
+			(xy 20.32 76.2) (xy 33.02 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd45dcbe-cdbd-406c-9648-eaeafc4379f8")
 	)
 	(wire
 		(pts
@@ -12913,16 +12923,6 @@
 		)
 		(uuid "772ac0cc-b72f-47ce-b2b3-e0625ccfc1b6")
 	)
-	(label "~{SLEEP}"
-		(at 26.67 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7a5a0866-62a4-4dbb-a7d0-e1fa4bbc136b")
-	)
 	(label "NRST"
 		(at 110.49 45.72 0)
 		(effects
@@ -13543,6 +13543,71 @@
 			(project "stm32f1-battery-poc"
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 20.32 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "073b4964-03d8-4c0f-8127-f41f79c8006f")
+		(property "Reference" "#PWR073"
+			(at 20.32 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 19.812 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 20.32 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4960c912-7c19-490e-b744-100f0c9358b6")
+		)
+		(instances
+			(project "stm32f1-battery-poc"
+				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -19768,7 +19833,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 22.86 68.58 0)
+		(at 22.86 63.5 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19777,7 +19842,7 @@
 		(dnp no)
 		(uuid "6d29cec5-f856-4972-b292-ab5691b1c5bd")
 		(property "Reference" "R24"
-			(at 21.336 67.31 0)
+			(at 21.336 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19786,7 +19851,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 21.336 69.85 0)
+			(at 21.336 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19795,7 +19860,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.082 68.58 90)
+			(at 21.082 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19804,7 +19869,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 68.58 0)
+			(at 22.86 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19813,7 +19878,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 22.86 68.58 0)
+			(at 22.86 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20622,7 +20687,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 22.86 63.5 0)
+		(at 22.86 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20630,7 +20695,7 @@
 		(dnp no)
 		(uuid "79f44e13-dfcf-4c1c-af4a-3daa35ae79a0")
 		(property "Reference" "#PWR047"
-			(at 22.86 67.31 0)
+			(at 22.86 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20639,7 +20704,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 22.86 59.69 0)
+			(at 22.86 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20647,7 +20712,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 63.5 0)
+			(at 22.86 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20656,7 +20721,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 63.5 0)
+			(at 22.86 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20665,7 +20730,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 22.86 63.5 0)
+			(at 22.86 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
