@@ -9255,6 +9255,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 63.5) (xy 160.02 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "226e8d5d-b917-44df-b7a5-186de91f2864")
+	)
+	(wire
+		(pts
 			(xy 78.74 55.88) (xy 68.58 55.88)
 		)
 		(stroke
@@ -9382,6 +9392,16 @@
 			(type default)
 		)
 		(uuid "26d15613-cab7-4913-999f-b1e3d62520e2")
+	)
+	(wire
+		(pts
+			(xy 166.37 60.96) (xy 160.02 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27caa97a-8f25-48cc-b2bd-dd2fbd8b65c7")
 	)
 	(wire
 		(pts
@@ -11385,6 +11405,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 66.04) (xy 160.02 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0e67574-1a4f-4100-83e6-8973db41aebd")
+	)
+	(wire
+		(pts
 			(xy 59.69 68.58) (xy 63.5 68.58)
 		)
 		(stroke
@@ -13003,6 +13033,16 @@
 		)
 		(uuid "670386b5-bec9-4a40-a8f8-b7c80a1631b8")
 	)
+	(label "LS1"
+		(at 166.37 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "704ede6e-9505-46d0-a646-2682ecc4e33a")
+	)
 	(label "INHC"
 		(at 26.67 58.42 0)
 		(effects
@@ -13173,6 +13213,16 @@
 		)
 		(uuid "b1d9d7a0-6cc2-46a2-b5c6-3055ba4204e2")
 	)
+	(label "LS3"
+		(at 166.37 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b35a510c-f5c0-48fe-8ced-271fdb5dfcc0")
+	)
 	(label "INLB"
 		(at 26.67 66.04 0)
 		(effects
@@ -13282,6 +13332,16 @@
 			(justify left bottom)
 		)
 		(uuid "e5d7b856-d711-4faa-949b-6e804aacf6b3")
+	)
+	(label "LS2"
+		(at 166.37 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e7a0ab6c-8a3a-4f77-a6cb-ca3136152522")
 	)
 	(label "USART1_RX"
 		(at 113.03 96.52 0)
@@ -14465,6 +14525,7 @@
 		)
 		(pin "16"
 			(uuid "b2bf604d-55de-4eec-a948-4a9a603c69e4")
+			(alternate "ADC2_IN6")
 		)
 		(pin "38"
 			(uuid "393460a5-7aa5-421e-969e-e468e65adde7")
@@ -14472,6 +14533,7 @@
 		)
 		(pin "15"
 			(uuid "fc3f09e1-8a8f-4484-af9b-8248c4549100")
+			(alternate "ADC2_IN5")
 		)
 		(pin "23"
 			(uuid "0e31bf70-18e4-400e-ac1b-96f205e9d9fb")
@@ -14497,6 +14559,7 @@
 		)
 		(pin "14"
 			(uuid "b52c4662-6a61-4935-b58d-dccd8ad0e365")
+			(alternate "ADC2_IN4")
 		)
 		(pin "39"
 			(uuid "8839dbb9-c17c-45b7-9a64-58bb657c35ae")
