@@ -8704,6 +8704,14 @@
 		(uuid "f4393f97-ce39-42af-9a67-2fab7ee0e25d")
 	)
 	(no_connect
+		(at 124.46 68.58)
+		(uuid "09fcb121-c35e-4742-970f-0d066fd4f802")
+	)
+	(no_connect
+		(at 124.46 73.66)
+		(uuid "0acaa91b-3f81-48b0-a79f-5758f17c7fd8")
+	)
+	(no_connect
 		(at 86.36 172.72)
 		(uuid "0e3199f6-833c-4bf6-a8ec-38e5307ccb85")
 	)
@@ -8712,12 +8720,56 @@
 		(uuid "156bb6dc-93d3-4728-a791-cdb8f8673286")
 	)
 	(no_connect
+		(at 124.46 91.44)
+		(uuid "2217921a-9e70-4519-a8e1-5064a7692d82")
+	)
+	(no_connect
 		(at 99.06 172.72)
 		(uuid "227c70c3-7be4-4b20-954c-260871177a34")
 	)
 	(no_connect
+		(at 160.02 68.58)
+		(uuid "3d38a14a-c1ed-4f14-b07b-ccc940bdd9b3")
+	)
+	(no_connect
+		(at 160.02 49.53)
+		(uuid "4a472641-c530-4de2-9bbe-ef1e6d53fb58")
+	)
+	(no_connect
+		(at 124.46 104.14)
+		(uuid "4dee5942-89d7-41ef-9ba9-fa79b468835f")
+	)
+	(no_connect
+		(at 124.46 81.28)
+		(uuid "4eb03b80-4ffa-48a9-8c88-ff534db78eba")
+	)
+	(no_connect
+		(at 124.46 106.68)
+		(uuid "75f926ac-6744-4539-800a-3d0bfe674815")
+	)
+	(no_connect
+		(at 124.46 109.22)
+		(uuid "90740712-5487-4554-8e44-901bfadea2b8")
+	)
+	(no_connect
+		(at 124.46 78.74)
+		(uuid "92e2c3c0-1a19-4022-9bf1-b47a6417a828")
+	)
+	(no_connect
 		(at 240.03 127)
 		(uuid "9f7bd4be-977a-49a1-a1d8-c0c17eeea582")
+	)
+	(no_connect
+		(at 124.46 71.12)
+		(uuid "a4a45b55-caf6-46e4-bb9f-fe9119b1a2e4")
+	)
+	(no_connect
+		(at 124.46 99.06)
+		(uuid "c611939d-9d2d-4765-917a-e1e75f5e246d")
+	)
+	(no_connect
+		(at 124.46 101.6)
+		(uuid "c6d29ebb-a8d9-4446-adb4-ade501e0dc9b")
 	)
 	(no_connect
 		(at 86.36 182.88)
