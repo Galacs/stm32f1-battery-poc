@@ -871,7 +871,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6cf07db9-8bbb-4797-98d1-ede260f557de")
-		(property "Reference" "R25"
+		(property "Reference" "R31"
 			(at 149.86 87.122 90)
 			(effects
 				(font
@@ -923,15 +923,15 @@
 		(instances
 			(project "stm32f1-battery-poc"
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92/78df32ab-a826-4a8a-a807-1c1832d746a2"
-					(reference "R27")
+					(reference "R33")
 					(unit 1)
 				)
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92/9b6644b9-5397-4892-98a5-01408259cfc5"
-					(reference "R26")
+					(reference "R32")
 					(unit 1)
 				)
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92/fe49d06d-7afc-4ad2-a0dc-4ccf3b57cc7d"
-					(reference "R25")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -946,7 +946,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7522639d-c2e1-431e-89a8-d1b4d86854c7")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR068"
 			(at 146.05 91.44 0)
 			(effects
 				(font
@@ -996,15 +996,15 @@
 		(instances
 			(project "stm32f1-battery-poc"
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92/78df32ab-a826-4a8a-a807-1c1832d746a2"
-					(reference "#PWR058")
+					(reference "#PWR072")
 					(unit 1)
 				)
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92/9b6644b9-5397-4892-98a5-01408259cfc5"
-					(reference "#PWR054")
+					(reference "#PWR070")
 					(unit 1)
 				)
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92/fe49d06d-7afc-4ad2-a0dc-4ccf3b57cc7d"
-					(reference "#PWR055")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -1020,7 +1020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9501d33f-4e6a-4f83-8268-c4fbfa71531f")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR069"
 			(at 154.94 101.6 0)
 			(effects
 				(font
@@ -1071,15 +1071,15 @@
 		(instances
 			(project "stm32f1-battery-poc"
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92/78df32ab-a826-4a8a-a807-1c1832d746a2"
-					(reference "#PWR059")
+					(reference "#PWR073")
 					(unit 1)
 				)
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92/9b6644b9-5397-4892-98a5-01408259cfc5"
-					(reference "#PWR057")
+					(reference "#PWR071")
 					(unit 1)
 				)
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92/fe49d06d-7afc-4ad2-a0dc-4ccf3b57cc7d"
-					(reference "#PWR056")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
