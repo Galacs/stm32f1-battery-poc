@@ -828,22 +828,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "239644e4-3d83-4d7e-ad4b-fbfb6b494cad")
+			(uuid "a4653eca-65ba-48ac-86af-c8b142848bfa")
 		)
 		(pin "3"
-			(uuid "67372116-f464-4c09-a747-17815198babb")
+			(uuid "feff1067-3826-4d56-a54a-935486e695cb")
 		)
 		(pin "5"
-			(uuid "b5c64f20-e3f8-4c06-a5a1-27d2a9e900be")
+			(uuid "4c50c11b-226f-4ea1-a64a-ef16f625376f")
 		)
 		(pin "2"
-			(uuid "c919658a-c322-4aa0-ac8e-6329211ca0cd")
+			(uuid "34d7e8b9-2cdb-4c7d-8661-d4565f0af841")
 		)
 		(pin "4"
-			(uuid "dd613b41-9056-4cac-965d-10bbbb00744d")
+			(uuid "70975574-64f2-4a1e-9829-9171b0dce06b")
 		)
 		(pin "6"
-			(uuid "c830fd5c-6ab0-4f3f-9426-fce72e12b783")
+			(uuid "45f22f68-f68c-4d29-9612-1904f372e75f")
 		)
 		(instances
 			(project "stm32f1-battery-poc"
@@ -915,10 +915,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "c99cd3c5-a61b-46e9-beb1-f3b57e8b87b1")
+			(uuid "e139edaf-cd53-4fcb-9965-09cf1f10b1f9")
 		)
 		(pin "1"
-			(uuid "61830feb-e55b-4ee5-ad45-e3d081cd5b1d")
+			(uuid "795b1b30-9717-4da6-a0bc-f8118cdbd62e")
 		)
 		(instances
 			(project "stm32f1-battery-poc"
@@ -991,7 +991,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ef91db45-ef93-47d3-aa43-77e85d0984de")
+			(uuid "4eddbeba-12dd-4373-9190-286bb2f9c1e0")
 		)
 		(instances
 			(project "stm32f1-battery-poc"
@@ -1066,7 +1066,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "bf97526c-b729-4a6a-a7bb-c94be4d59f8b")
+			(uuid "c6a96807-0630-4e7a-86dd-56c6c3429b5a")
 		)
 		(instances
 			(project "stm32f1-battery-poc"
