@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92")
 	(paper "A4")
+	(title_block
+		(title "STM32F1 Battery POC")
+		(date "2025-12-12")
+		(rev "01")
+		(company "Rémi Ait-Younes")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
