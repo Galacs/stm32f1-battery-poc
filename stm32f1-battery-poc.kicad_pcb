@@ -1588,7 +1588,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "0a0c9e1e-003c-4a56-a452-bc12ddffd071")
-		(at 123.9175 121.78 -90)
+		(at 122.0375 122.73 -90)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J1"
@@ -16585,13 +16585,13 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "755ad4c8-000e-4b5d-85a7-4e62664e3a82")
-		(at 157.8375 121.73 90)
+		(at 157.5975 122.73 90)
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "TH1"
 			(at 0 -2.77 90)
 			(layer "F.SilkS")
-			(uuid "e8c8da03-7947-4262-8bc0-df6fea2efb66")
+			(uuid "0710dc97-12da-44fc-a456-9a4d65edc07e")
 			(effects
 				(font
 					(size 1 1)
@@ -16602,7 +16602,7 @@
 		(property "Value" "10k/3435K"
 			(at 0 5.31 90)
 			(layer "F.Fab")
-			(uuid "0a1d5960-9d9d-4739-9332-abf107656492")
+			(uuid "570872e3-dfbc-4a07-96f8-08124fb37335")
 			(effects
 				(font
 					(size 1 1)
@@ -16614,7 +16614,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "31800ddb-f6d3-4801-804e-251012d40f07")
+			(uuid "b3fc18c3-6926-4bc1-8f9d-e4e15bd6fcd7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16626,7 +16626,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5f7c4d58-720f-4995-805a-1aa78135d042")
+			(uuid "b746aa68-8a65-4657-9f20-a6bde02d2d35")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23351,7 +23351,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "a27a6b3c-d6fb-4ce9-aeab-dbb55c15dd35")
-		(at 151.9475 121.73 -90)
+		(at 152.5175 122.73 -90)
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J9"
@@ -29577,7 +29577,7 @@
 	(footprint "Capacitor_SMD:CP_Elec_6.3x7.7"
 		(layer "F.Cu")
 		(uuid "c910f5d4-809b-4ec3-8848-6dcd116dc754")
-		(at 150.1075 58.51 -90)
+		(at 150.1075 59.3 -90)
 		(descr "SMD capacitor, aluminum electrolytic, Nichicon, 6.3x7.7mm")
 		(tags "capacitor electrolytic")
 		(property "Reference" "C20"
@@ -30059,7 +30059,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "cd33de10-bd7a-4d80-aacb-8ad90aa351ad")
-		(at 167.77 50.73 -90)
+		(at 165.04 50 -90)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "M2"
@@ -35297,7 +35297,7 @@
 	(footprint "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical"
 		(layer "F.Cu")
 		(uuid "dfb48c73-6e4a-46b2-8fc3-5d9e619dc52a")
-		(at 139.6475 121.73 -90)
+		(at 139.54 121.73 -90)
 		(descr "Through hole straight pin header, 2x07, 1.27mm pitch, double rows")
 		(tags "Through hole pin header THT 2x07 1.27mm double row")
 		(property "Reference" "J4"
