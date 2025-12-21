@@ -783,7 +783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2acbb47c-f972-43b0-a7c3-a5babf408228")
-		(property "Reference" "J4"
+		(property "Reference" "J10"
 			(at 138.43 85.09 0)
 			(effects
 				(font
@@ -848,15 +848,15 @@
 		(instances
 			(project "stm32f1-battery-poc"
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92/78df32ab-a826-4a8a-a807-1c1832d746a2"
-					(reference "J6")
+					(reference "J12")
 					(unit 1)
 				)
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92/9b6644b9-5397-4892-98a5-01408259cfc5"
-					(reference "J5")
+					(reference "J11")
 					(unit 1)
 				)
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92/fe49d06d-7afc-4ad2-a0dc-4ccf3b57cc7d"
-					(reference "J4")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -871,7 +871,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6cf07db9-8bbb-4797-98d1-ede260f557de")
-		(property "Reference" "R31"
+		(property "Reference" "R37"
 			(at 149.86 87.122 90)
 			(effects
 				(font
@@ -959,15 +959,15 @@
 		(instances
 			(project "stm32f1-battery-poc"
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92/78df32ab-a826-4a8a-a807-1c1832d746a2"
-					(reference "R33")
+					(reference "R39")
 					(unit 1)
 				)
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92/9b6644b9-5397-4892-98a5-01408259cfc5"
-					(reference "R32")
+					(reference "R38")
 					(unit 1)
 				)
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92/fe49d06d-7afc-4ad2-a0dc-4ccf3b57cc7d"
-					(reference "R31")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -982,7 +982,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7522639d-c2e1-431e-89a8-d1b4d86854c7")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR086"
 			(at 146.05 91.44 0)
 			(effects
 				(font
@@ -1032,15 +1032,15 @@
 		(instances
 			(project "stm32f1-battery-poc"
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92/78df32ab-a826-4a8a-a807-1c1832d746a2"
-					(reference "#PWR072")
+					(reference "#PWR090")
 					(unit 1)
 				)
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92/9b6644b9-5397-4892-98a5-01408259cfc5"
-					(reference "#PWR070")
+					(reference "#PWR088")
 					(unit 1)
 				)
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92/fe49d06d-7afc-4ad2-a0dc-4ccf3b57cc7d"
-					(reference "#PWR068")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -1056,7 +1056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9501d33f-4e6a-4f83-8268-c4fbfa71531f")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR087"
 			(at 154.94 101.6 0)
 			(effects
 				(font
@@ -1107,15 +1107,15 @@
 		(instances
 			(project "stm32f1-battery-poc"
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92/78df32ab-a826-4a8a-a807-1c1832d746a2"
-					(reference "#PWR073")
+					(reference "#PWR091")
 					(unit 1)
 				)
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92/9b6644b9-5397-4892-98a5-01408259cfc5"
-					(reference "#PWR071")
+					(reference "#PWR089")
 					(unit 1)
 				)
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92/fe49d06d-7afc-4ad2-a0dc-4ccf3b57cc7d"
-					(reference "#PWR069")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
