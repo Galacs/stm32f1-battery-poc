@@ -517,7 +517,7 @@
       },
       {
         "name": "CAN",
-        "pcb_color": "rgb(255, 255, 0)",
+        "pcb_color": "rgb(194, 194, 0)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
@@ -529,7 +529,7 @@
       },
       {
         "name": "PWM",
-        "pcb_color": "rgb(0, 255, 0)",
+        "pcb_color": "rgb(0, 194, 0)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
@@ -541,13 +541,13 @@
       },
       {
         "name": "SENSE",
-        "pcb_color": "rgb(255, 229, 191)",
+        "pcb_color": "rgb(204, 102, 0)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "SWD",
-        "pcb_color": "rgb(0, 255, 255)",
+        "pcb_color": "rgb(0, 194, 194)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
