@@ -4044,7 +4044,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "GLCS:Texas_RRW0024A_WQFN-24-1EP_2x2mm_P0.4mmThermalVias"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9490,8 +9490,8 @@
 		(uuid 0a02ed4f-5bde-43e9-b258-4a8b097de79f)
 	)
 	(rectangle
-		(start 185.42 13.97)
-		(end 209.55 35.56)
+		(start 185.42 43.18)
+		(end 209.55 63.5)
 		(stroke
 			(width 0)
 			(type dash)
@@ -9562,8 +9562,8 @@
 		(uuid 453ad5c4-73ec-48c9-a7b8-7c87035a81d7)
 	)
 	(rectangle
-		(start 63.5 96.52)
-		(end 83.82 123.19)
+		(start 189.23 13.97)
+		(end 209.55 40.64)
 		(stroke
 			(width 0)
 			(type dash)
@@ -9586,8 +9586,8 @@
 		(uuid a21a6acf-58fc-49c9-86b5-0947dbe15774)
 	)
 	(rectangle
-		(start 69.85 15.24)
-		(end 175.26 77.47)
+		(start 73.66 15.24)
+		(end 173.99 77.47)
 		(stroke
 			(width 0)
 			(type dash)
@@ -9704,7 +9704,7 @@
 	)
 	(text "DRV8424 Stepper\nDriver"
 		(exclude_from_sim no)
-		(at 89.408 24.892 0)
+		(at 88.138 24.892 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -9788,7 +9788,7 @@
 	)
 	(text "12V input"
 		(exclude_from_sim no)
-		(at 73.152 121.158 0)
+		(at 198.882 38.608 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -9823,7 +9823,7 @@
 	)
 	(text "I2C"
 		(exclude_from_sim no)
-		(at 204.216 20.574 0)
+		(at 204.216 49.784 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -9876,7 +9876,7 @@
 		(uuid "003c602e-a5da-4801-a2a3-63fff10bf98d")
 	)
 	(junction
-		(at 135.89 68.58)
+		(at 134.62 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00f97470-0ca3-4335-a590-d1cc69878114")
@@ -9906,7 +9906,7 @@
 		(uuid "14934fd9-4128-4177-b350-d2276d5c60a4")
 	)
 	(junction
-		(at 96.52 53.34)
+		(at 95.25 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "161d73cb-dc06-44c6-b5df-2953e71c31a5")
@@ -9922,6 +9922,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1846fea9-308b-406d-aa16-89498188d012")
+	)
+	(junction
+		(at 156.21 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18b74560-464d-4111-8b9e-d9e2700f4183")
 	)
 	(junction
 		(at 212.09 146.05)
@@ -9942,13 +9948,13 @@
 		(uuid "1cbd0dc8-e01a-403d-b19c-1bccca0a4502")
 	)
 	(junction
-		(at 125.73 20.32)
+		(at 124.46 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22307624-9015-43d3-a045-a73b78045759")
 	)
 	(junction
-		(at 78.74 50.8)
+		(at 77.47 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "232bd1e5-0103-4d02-aa61-b4476f2e6660")
@@ -9960,7 +9966,7 @@
 		(uuid "23a1d818-5952-4633-9c0b-e4f4b043043e")
 	)
 	(junction
-		(at 170.18 62.23)
+		(at 168.91 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24101bd7-2911-4c8f-b36f-318000003e09")
@@ -10002,6 +10008,12 @@
 		(uuid "29480644-21a2-486e-98e4-a18035724922")
 	)
 	(junction
+		(at 157.48 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2aee7070-e2b8-4564-95bc-0f0f7e201de5")
+	)
+	(junction
 		(at 34.29 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10032,7 +10044,7 @@
 		(uuid "3676a305-3b4b-469b-8b46-6d9a031e3fe9")
 	)
 	(junction
-		(at 96.52 62.23)
+		(at 95.25 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37d86cf9-d248-4c48-bc2e-8c6255bba274")
@@ -10074,19 +10086,13 @@
 		(uuid "42a2d77e-4888-4c27-9832-b9bf3df1665d")
 	)
 	(junction
-		(at 154.94 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43cb2ec4-ff1c-461c-a8ce-19357a9ec4fe")
-	)
-	(junction
 		(at 274.32 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "460044a7-b997-4d29-9212-d1b230593b85")
 	)
 	(junction
-		(at 153.67 54.61)
+		(at 152.4 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d86b3e6-0e5e-4199-be95-411d1f4938c8")
@@ -10116,7 +10122,7 @@
 		(uuid "50fcffdd-52e1-4f35-b18b-fdba861b16c3")
 	)
 	(junction
-		(at 153.67 52.07)
+		(at 152.4 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5280fb66-b0e0-4080-8106-29bfdaab3ca7")
@@ -10134,7 +10140,7 @@
 		(uuid "546f85f8-d745-4081-ac9c-61976b7570f5")
 	)
 	(junction
-		(at 120.65 24.13)
+		(at 119.38 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57b32410-505b-48f3-8615-e50ebe8b2edc")
@@ -10158,12 +10164,6 @@
 		(uuid "615fba58-07c1-468a-851b-f3d9bd360799")
 	)
 	(junction
-		(at 81.28 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "628512a5-eb5f-4322-ab48-0aaf824b956c")
-	)
-	(junction
 		(at 224.79 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10176,13 +10176,13 @@
 		(uuid "6549f85c-7024-490a-9a96-7bf3f584db0b")
 	)
 	(junction
-		(at 130.81 30.48)
+		(at 129.54 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a1e0261-443a-439a-8de1-2af8424dd738")
 	)
 	(junction
-		(at 138.43 60.96)
+		(at 137.16 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ab3b87f-1e41-4411-b87c-c5e870727170")
@@ -10212,7 +10212,7 @@
 		(uuid "74a7c7ae-043e-4cb9-bb57-0c5bdae1ac95")
 	)
 	(junction
-		(at 77.47 102.87)
+		(at 203.2 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74b55200-15bc-4990-b74d-67f8b666ad8c")
@@ -10254,7 +10254,7 @@
 		(uuid "7feca13d-cbc2-45a8-a251-38c83521423b")
 	)
 	(junction
-		(at 77.47 114.3)
+		(at 203.2 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8076d8cb-242c-4cc6-848a-6bc7e82a3330")
@@ -10350,7 +10350,7 @@
 		(uuid "a3898f3f-e3d1-4b2d-b1b6-de2b49d6f441")
 	)
 	(junction
-		(at 153.67 35.56)
+		(at 152.4 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a63a2983-d014-48f4-a886-b524a2259373")
@@ -10422,12 +10422,6 @@
 		(uuid "b35ca3b7-a5b7-4a3c-a4f1-907e4e086e27")
 	)
 	(junction
-		(at 156.21 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8aa249f-2c45-4cdd-9502-b219bac02fb8")
-	)
-	(junction
 		(at 60.96 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10438,6 +10432,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bee9371b-e84c-4beb-b154-46a1bee7d630")
+	)
+	(junction
+		(at 80.01 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0af00ba-79ab-492f-a093-2b2e4ef5d992")
 	)
 	(junction
 		(at 237.49 25.4)
@@ -10488,7 +10488,7 @@
 		(uuid "cd695b7b-946d-466a-b7e0-5bcba0ced999")
 	)
 	(junction
-		(at 135.89 20.32)
+		(at 134.62 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf55078b-0b80-40c8-a3be-7d1fc8061d27")
@@ -10560,7 +10560,7 @@
 		(uuid "e19cae57-f7b2-4ec9-9022-1b5c9db1ab33")
 	)
 	(junction
-		(at 96.52 59.69)
+		(at 95.25 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e27684e8-d353-40ee-87ad-88e17354c8cc")
@@ -10723,7 +10723,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 68.58) (xy 119.38 69.85)
+			(xy 118.11 68.58) (xy 118.11 69.85)
 		)
 		(stroke
 			(width 0)
@@ -10743,7 +10743,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 49.53) (xy 167.64 49.53)
+			(xy 170.18 49.53) (xy 166.37 49.53)
 		)
 		(stroke
 			(width 0)
@@ -10793,7 +10793,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 54.61) (xy 168.91 54.61)
+			(xy 166.37 54.61) (xy 167.64 54.61)
 		)
 		(stroke
 			(width 0)
@@ -10803,7 +10803,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 19.05) (xy 135.89 20.32)
+			(xy 134.62 19.05) (xy 134.62 20.32)
 		)
 		(stroke
 			(width 0)
@@ -10823,7 +10823,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 55.88) (xy 106.68 55.88)
+			(xy 95.25 55.88) (xy 105.41 55.88)
 		)
 		(stroke
 			(width 0)
@@ -10833,7 +10833,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 64.77) (xy 96.52 62.23)
+			(xy 95.25 64.77) (xy 95.25 62.23)
 		)
 		(stroke
 			(width 0)
@@ -10863,13 +10863,23 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 41.91) (xy 106.68 41.91)
+			(xy 100.33 41.91) (xy 105.41 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0b5106bd-2b06-4866-bf9b-1576a78d2a66")
+	)
+	(wire
+		(pts
+			(xy 156.21 60.96) (xy 156.21 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c4b196f-1f71-46bb-bac5-3bd496283b06")
 	)
 	(wire
 		(pts
@@ -10903,7 +10913,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 48.26) (xy 171.45 49.53)
+			(xy 170.18 48.26) (xy 170.18 49.53)
 		)
 		(stroke
 			(width 0)
@@ -10923,7 +10933,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 63.5) (xy 106.68 63.5)
+			(xy 104.14 63.5) (xy 105.41 63.5)
 		)
 		(stroke
 			(width 0)
@@ -11023,7 +11033,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 35.56) (xy 153.67 35.56)
+			(xy 147.32 35.56) (xy 152.4 35.56)
 		)
 		(stroke
 			(width 0)
@@ -11053,7 +11063,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 102.87) (xy 77.47 105.41)
+			(xy 203.2 20.32) (xy 203.2 22.86)
 		)
 		(stroke
 			(width 0)
@@ -11063,7 +11073,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 64.77) (xy 82.55 64.77)
+			(xy 80.01 64.77) (xy 81.28 64.77)
 		)
 		(stroke
 			(width 0)
@@ -11113,7 +11123,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 60.96) (xy 156.21 60.96)
+			(xy 152.4 60.96) (xy 156.21 60.96)
 		)
 		(stroke
 			(width 0)
@@ -11140,6 +11150,16 @@
 			(type default)
 		)
 		(uuid "1668bbb4-8f5d-427a-bc30-2e08e6a2fb68")
+	)
+	(wire
+		(pts
+			(xy 153.67 63.5) (xy 153.67 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "166b1c00-6bf8-4cfc-be8d-d097cfbd82ad")
 	)
 	(wire
 		(pts
@@ -11183,7 +11203,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 30.48) (xy 135.89 29.21)
+			(xy 134.62 30.48) (xy 134.62 29.21)
 		)
 		(stroke
 			(width 0)
@@ -11203,7 +11223,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 58.42) (xy 135.89 68.58)
+			(xy 134.62 58.42) (xy 134.62 68.58)
 		)
 		(stroke
 			(width 0)
@@ -11283,7 +11303,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 62.23) (xy 171.45 60.96)
+			(xy 170.18 62.23) (xy 170.18 60.96)
 		)
 		(stroke
 			(width 0)
@@ -11383,7 +11403,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 71.12) (xy 140.97 71.12)
+			(xy 134.62 71.12) (xy 139.7 71.12)
 		)
 		(stroke
 			(width 0)
@@ -11523,6 +11543,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 63.5) (xy 77.47 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24508222-1596-447e-a94f-ef372abc9473")
+	)
+	(wire
+		(pts
 			(xy 96.52 93.98) (xy 107.95 93.98)
 		)
 		(stroke
@@ -11573,7 +11603,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 114.3) (xy 73.66 114.3)
+			(xy 203.2 31.75) (xy 199.39 31.75)
 		)
 		(stroke
 			(width 0)
@@ -11613,7 +11643,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 35.56) (xy 168.91 35.56)
+			(xy 161.29 35.56) (xy 167.64 35.56)
 		)
 		(stroke
 			(width 0)
@@ -11663,7 +11693,17 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 44.45) (xy 134.62 44.45)
+			(xy 149.86 107.95) (xy 149.86 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a3cc5b1-b0cb-4984-9280-23b14fa3a690")
+	)
+	(wire
+		(pts
+			(xy 130.81 44.45) (xy 133.35 44.45)
 		)
 		(stroke
 			(width 0)
@@ -11743,7 +11783,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 30.48) (xy 199.39 20.32)
+			(xy 199.39 59.69) (xy 199.39 49.53)
 		)
 		(stroke
 			(width 0)
@@ -11773,7 +11813,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 34.29) (xy 133.35 36.83)
+			(xy 132.08 34.29) (xy 132.08 36.83)
 		)
 		(stroke
 			(width 0)
@@ -11793,7 +11833,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 105.41) (xy 72.39 105.41)
+			(xy 199.39 22.86) (xy 198.12 22.86)
 		)
 		(stroke
 			(width 0)
@@ -11813,7 +11853,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 29.21) (xy 125.73 30.48)
+			(xy 124.46 29.21) (xy 124.46 30.48)
 		)
 		(stroke
 			(width 0)
@@ -11843,7 +11883,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 68.58) (xy 135.89 71.12)
+			(xy 134.62 68.58) (xy 134.62 71.12)
 		)
 		(stroke
 			(width 0)
@@ -11863,7 +11903,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 62.23) (xy 170.18 63.5)
+			(xy 168.91 62.23) (xy 168.91 63.5)
 		)
 		(stroke
 			(width 0)
@@ -11873,7 +11913,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 53.34) (xy 132.08 53.34)
+			(xy 146.05 53.34) (xy 130.81 53.34)
 		)
 		(stroke
 			(width 0)
@@ -11893,7 +11933,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 36.83) (xy 106.68 36.83)
+			(xy 100.33 36.83) (xy 105.41 36.83)
 		)
 		(stroke
 			(width 0)
@@ -11903,7 +11943,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 59.69) (xy 96.52 59.69)
+			(xy 93.98 59.69) (xy 95.25 59.69)
 		)
 		(stroke
 			(width 0)
@@ -11913,7 +11953,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 53.34) (xy 96.52 53.34)
+			(xy 93.98 53.34) (xy 95.25 53.34)
 		)
 		(stroke
 			(width 0)
@@ -11993,7 +12033,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 45.72) (xy 135.89 45.72)
+			(xy 138.43 45.72) (xy 134.62 45.72)
 		)
 		(stroke
 			(width 0)
@@ -12103,7 +12143,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 54.61) (xy 168.91 62.23)
+			(xy 167.64 54.61) (xy 167.64 62.23)
 		)
 		(stroke
 			(width 0)
@@ -12113,7 +12153,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 49.53) (xy 153.67 52.07)
+			(xy 152.4 49.53) (xy 152.4 52.07)
 		)
 		(stroke
 			(width 0)
@@ -12153,7 +12193,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 30.48) (xy 130.81 30.48)
+			(xy 124.46 30.48) (xy 129.54 30.48)
 		)
 		(stroke
 			(width 0)
@@ -12173,7 +12213,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 55.88) (xy 138.43 60.96)
+			(xy 137.16 55.88) (xy 137.16 60.96)
 		)
 		(stroke
 			(width 0)
@@ -12193,7 +12233,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 63.5) (xy 100.33 63.5)
+			(xy 97.79 63.5) (xy 99.06 63.5)
 		)
 		(stroke
 			(width 0)
@@ -12273,7 +12313,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 20.32) (xy 125.73 20.32)
+			(xy 134.62 20.32) (xy 124.46 20.32)
 		)
 		(stroke
 			(width 0)
@@ -12283,7 +12323,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 60.96) (xy 138.43 63.5)
+			(xy 137.16 60.96) (xy 137.16 63.5)
 		)
 		(stroke
 			(width 0)
@@ -12323,7 +12363,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 41.91) (xy 132.08 41.91)
+			(xy 134.62 41.91) (xy 130.81 41.91)
 		)
 		(stroke
 			(width 0)
@@ -12363,7 +12403,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 54.61) (xy 81.28 53.34)
+			(xy 80.01 54.61) (xy 80.01 53.34)
 		)
 		(stroke
 			(width 0)
@@ -12453,7 +12493,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 30.48) (xy 118.11 31.75)
+			(xy 116.84 30.48) (xy 116.84 31.75)
 		)
 		(stroke
 			(width 0)
@@ -12513,7 +12553,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 44.45) (xy 139.7 45.72)
+			(xy 138.43 44.45) (xy 138.43 45.72)
 		)
 		(stroke
 			(width 0)
@@ -12543,7 +12583,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 20.32) (xy 196.85 29.21)
+			(xy 196.85 49.53) (xy 196.85 58.42)
 		)
 		(stroke
 			(width 0)
@@ -12553,7 +12593,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 49.53) (xy 78.74 50.8)
+			(xy 77.47 49.53) (xy 77.47 50.8)
 		)
 		(stroke
 			(width 0)
@@ -12563,7 +12603,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 20.32) (xy 125.73 20.32)
+			(xy 119.38 20.32) (xy 124.46 20.32)
 		)
 		(stroke
 			(width 0)
@@ -12583,13 +12623,23 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 44.45) (xy 153.67 45.72)
+			(xy 152.4 44.45) (xy 152.4 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "56622a43-fa1f-4dc0-bf6f-0e35e492d2a5")
+	)
+	(wire
+		(pts
+			(xy 77.47 72.39) (xy 80.01 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f3e754-9968-4221-8ed2-167c659055ae")
 	)
 	(wire
 		(pts
@@ -12603,16 +12653,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 64.77) (xy 72.39 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58877294-a328-4ed8-b0c0-9ed664123498")
-	)
-	(wire
-		(pts
 			(xy 214.63 114.3) (xy 213.36 114.3)
 		)
 		(stroke
@@ -12623,7 +12663,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 36.83) (xy 132.08 36.83)
+			(xy 132.08 36.83) (xy 130.81 36.83)
 		)
 		(stroke
 			(width 0)
@@ -12663,7 +12703,17 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 71.12) (xy 153.67 71.12)
+			(xy 80.01 73.66) (xy 80.01 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b883c6f-ec24-4761-89c4-76f18be9a50a")
+	)
+	(wire
+		(pts
+			(xy 153.67 71.12) (xy 152.4 71.12)
 		)
 		(stroke
 			(width 0)
@@ -12713,7 +12763,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 34.29) (xy 134.62 34.29)
+			(xy 132.08 34.29) (xy 133.35 34.29)
 		)
 		(stroke
 			(width 0)
@@ -12823,6 +12873,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 71.12) (xy 77.47 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64ae1a10-8b48-4e6c-88a3-cb26a9fdfd9e")
+	)
+	(wire
+		(pts
 			(xy 100.33 152.4) (xy 100.33 153.67)
 		)
 		(stroke
@@ -12833,7 +12893,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 50.8) (xy 148.59 50.8)
+			(xy 130.81 50.8) (xy 147.32 50.8)
 		)
 		(stroke
 			(width 0)
@@ -12853,7 +12913,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 68.58) (xy 156.21 68.58)
+			(xy 152.4 68.58) (xy 156.21 68.58)
 		)
 		(stroke
 			(width 0)
@@ -12873,7 +12933,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 25.4) (xy 118.11 24.13)
+			(xy 116.84 25.4) (xy 116.84 24.13)
 		)
 		(stroke
 			(width 0)
@@ -12893,7 +12953,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 64.77) (xy 96.52 64.77)
+			(xy 93.98 64.77) (xy 95.25 64.77)
 		)
 		(stroke
 			(width 0)
@@ -12963,7 +13023,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 62.23) (xy 170.18 62.23)
+			(xy 170.18 62.23) (xy 168.91 62.23)
 		)
 		(stroke
 			(width 0)
@@ -13013,7 +13073,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 71.12) (xy 154.94 72.39)
+			(xy 153.67 71.12) (xy 153.67 72.39)
 		)
 		(stroke
 			(width 0)
@@ -13033,7 +13093,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 54.61) (xy 147.32 53.34)
+			(xy 146.05 54.61) (xy 146.05 53.34)
 		)
 		(stroke
 			(width 0)
@@ -13113,7 +13173,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 45.72) (xy 135.89 41.91)
+			(xy 134.62 45.72) (xy 134.62 41.91)
 		)
 		(stroke
 			(width 0)
@@ -13143,7 +13203,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 62.23) (xy 95.25 62.23)
+			(xy 95.25 62.23) (xy 93.98 62.23)
 		)
 		(stroke
 			(width 0)
@@ -13313,7 +13373,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 59.69) (xy 96.52 55.88)
+			(xy 95.25 59.69) (xy 95.25 55.88)
 		)
 		(stroke
 			(width 0)
@@ -13373,7 +13433,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 50.8) (xy 82.55 50.8)
+			(xy 77.47 50.8) (xy 81.28 50.8)
 		)
 		(stroke
 			(width 0)
@@ -13443,7 +13503,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 69.85) (xy 133.35 71.12)
+			(xy 132.08 69.85) (xy 132.08 71.12)
 		)
 		(stroke
 			(width 0)
@@ -13513,7 +13573,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 39.37) (xy 106.68 39.37)
+			(xy 100.33 39.37) (xy 105.41 39.37)
 		)
 		(stroke
 			(width 0)
@@ -13553,6 +13613,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 62.23) (xy 81.28 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8182170e-d6f3-408f-b44d-83cd6c726971")
+	)
+	(wire
+		(pts
 			(xy 124.46 135.89) (xy 123.19 135.89)
 		)
 		(stroke
@@ -13563,7 +13633,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 52.07) (xy 171.45 52.07)
+			(xy 166.37 52.07) (xy 170.18 52.07)
 		)
 		(stroke
 			(width 0)
@@ -13593,7 +13663,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 113.03) (xy 77.47 114.3)
+			(xy 203.2 30.48) (xy 203.2 31.75)
 		)
 		(stroke
 			(width 0)
@@ -13723,7 +13793,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 30.48) (xy 130.81 31.75)
+			(xy 129.54 30.48) (xy 129.54 31.75)
 		)
 		(stroke
 			(width 0)
@@ -13743,7 +13813,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 59.69) (xy 78.74 59.69)
+			(xy 81.28 59.69) (xy 77.47 59.69)
 		)
 		(stroke
 			(width 0)
@@ -13793,7 +13863,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 53.34) (xy 106.68 53.34)
+			(xy 95.25 53.34) (xy 105.41 53.34)
 		)
 		(stroke
 			(width 0)
@@ -13843,7 +13913,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 114.3) (xy 77.47 115.57)
+			(xy 203.2 31.75) (xy 203.2 33.02)
 		)
 		(stroke
 			(width 0)
@@ -13943,7 +14013,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 49.53) (xy 106.68 49.53)
+			(xy 99.06 49.53) (xy 105.41 49.53)
 		)
 		(stroke
 			(width 0)
@@ -13963,7 +14033,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 66.04) (xy 81.28 64.77)
+			(xy 80.01 72.39) (xy 80.01 64.77)
 		)
 		(stroke
 			(width 0)
@@ -13983,7 +14053,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 20.32) (xy 191.77 29.21)
+			(xy 191.77 49.53) (xy 191.77 58.42)
 		)
 		(stroke
 			(width 0)
@@ -14003,7 +14073,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 53.34) (xy 82.55 53.34)
+			(xy 80.01 53.34) (xy 81.28 53.34)
 		)
 		(stroke
 			(width 0)
@@ -14043,7 +14113,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 21.59) (xy 135.89 20.32)
+			(xy 134.62 21.59) (xy 134.62 20.32)
 		)
 		(stroke
 			(width 0)
@@ -14063,7 +14133,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 50.8) (xy 96.52 53.34)
+			(xy 95.25 50.8) (xy 95.25 53.34)
 		)
 		(stroke
 			(width 0)
@@ -14113,7 +14183,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 46.99) (xy 144.78 44.45)
+			(xy 143.51 46.99) (xy 143.51 44.45)
 		)
 		(stroke
 			(width 0)
@@ -14123,7 +14193,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 52.07) (xy 153.67 52.07)
+			(xy 153.67 52.07) (xy 152.4 52.07)
 		)
 		(stroke
 			(width 0)
@@ -14173,7 +14243,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 55.88) (xy 138.43 55.88)
+			(xy 130.81 55.88) (xy 137.16 55.88)
 		)
 		(stroke
 			(width 0)
@@ -14203,7 +14273,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 54.61) (xy 153.67 54.61)
+			(xy 146.05 54.61) (xy 152.4 54.61)
 		)
 		(stroke
 			(width 0)
@@ -14253,7 +14323,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 58.42) (xy 132.08 58.42)
+			(xy 134.62 58.42) (xy 130.81 58.42)
 		)
 		(stroke
 			(width 0)
@@ -14403,7 +14473,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 62.23) (xy 170.18 62.23)
+			(xy 167.64 62.23) (xy 168.91 62.23)
 		)
 		(stroke
 			(width 0)
@@ -14433,7 +14503,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 59.69) (xy 96.52 62.23)
+			(xy 95.25 59.69) (xy 95.25 62.23)
 		)
 		(stroke
 			(width 0)
@@ -14443,7 +14513,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 102.87) (xy 77.47 102.87)
+			(xy 204.47 20.32) (xy 203.2 20.32)
 		)
 		(stroke
 			(width 0)
@@ -14543,7 +14613,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 35.56) (xy 153.67 36.83)
+			(xy 152.4 35.56) (xy 152.4 36.83)
 		)
 		(stroke
 			(width 0)
@@ -14563,7 +14633,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 30.48) (xy 135.89 30.48)
+			(xy 129.54 30.48) (xy 134.62 30.48)
 		)
 		(stroke
 			(width 0)
@@ -14583,7 +14653,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 59.69) (xy 78.74 50.8)
+			(xy 77.47 59.69) (xy 77.47 50.8)
 		)
 		(stroke
 			(width 0)
@@ -14593,7 +14663,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 44.45) (xy 134.62 46.99)
+			(xy 133.35 44.45) (xy 133.35 46.99)
 		)
 		(stroke
 			(width 0)
@@ -14603,7 +14673,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 36.83) (xy 96.52 38.1)
+			(xy 95.25 36.83) (xy 95.25 38.1)
 		)
 		(stroke
 			(width 0)
@@ -14683,7 +14753,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 52.07) (xy 153.67 54.61)
+			(xy 152.4 52.07) (xy 152.4 54.61)
 		)
 		(stroke
 			(width 0)
@@ -14703,7 +14773,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 60.96) (xy 138.43 60.96)
+			(xy 139.7 60.96) (xy 137.16 60.96)
 		)
 		(stroke
 			(width 0)
@@ -14733,7 +14803,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 63.5) (xy 153.67 63.5)
+			(xy 153.67 63.5) (xy 152.4 63.5)
 		)
 		(stroke
 			(width 0)
@@ -14743,7 +14813,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 20.32) (xy 125.73 21.59)
+			(xy 149.86 106.68) (xy 157.48 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9bf6413-f6a0-4670-8e79-5cb3ac531d16")
+	)
+	(wire
+		(pts
+			(xy 124.46 20.32) (xy 124.46 21.59)
 		)
 		(stroke
 			(width 0)
@@ -14843,7 +14923,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 60.96) (xy 99.06 63.5)
+			(xy 97.79 60.96) (xy 97.79 63.5)
 		)
 		(stroke
 			(width 0)
@@ -14870,16 +14950,6 @@
 			(type default)
 		)
 		(uuid "c22c6d01-6c93-4f0f-83a2-e8978abe3163")
-	)
-	(wire
-		(pts
-			(xy 81.28 64.77) (xy 72.39 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c232a1ed-99a8-48d9-868d-1754af77ee8f")
 	)
 	(wire
 		(pts
@@ -14920,16 +14990,6 @@
 			(type default)
 		)
 		(uuid "c3f64375-c9d0-44b5-baec-01c4c0ce8369")
-	)
-	(wire
-		(pts
-			(xy 156.21 68.58) (xy 156.21 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3ff591b-f959-46d1-9374-fb76836a62f0")
 	)
 	(wire
 		(pts
@@ -14993,7 +15053,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 101.6) (xy 78.74 102.87)
+			(xy 204.47 19.05) (xy 204.47 20.32)
 		)
 		(stroke
 			(width 0)
@@ -15020,16 +15080,6 @@
 			(type default)
 		)
 		(uuid "c6bf5038-9ed8-4c31-a034-544073a12f2a")
-	)
-	(wire
-		(pts
-			(xy 81.28 62.23) (xy 82.55 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6f61395-453e-40cf-8256-3d9b377084d3")
 	)
 	(wire
 		(pts
@@ -15073,7 +15123,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 64.77) (xy 133.35 63.5)
+			(xy 132.08 64.77) (xy 132.08 63.5)
 		)
 		(stroke
 			(width 0)
@@ -15163,7 +15213,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 46.99) (xy 144.78 46.99)
+			(xy 133.35 46.99) (xy 143.51 46.99)
 		)
 		(stroke
 			(width 0)
@@ -15203,7 +15253,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 35.56) (xy 148.59 50.8)
+			(xy 147.32 35.56) (xy 147.32 50.8)
 		)
 		(stroke
 			(width 0)
@@ -15243,7 +15293,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 29.21) (xy 205.74 30.48)
+			(xy 205.74 58.42) (xy 205.74 59.69)
 		)
 		(stroke
 			(width 0)
@@ -15283,7 +15333,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 63.5) (xy 132.08 63.5)
+			(xy 132.08 63.5) (xy 130.81 63.5)
 		)
 		(stroke
 			(width 0)
@@ -15323,7 +15373,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 54.61) (xy 153.67 54.61)
+			(xy 153.67 54.61) (xy 152.4 54.61)
 		)
 		(stroke
 			(width 0)
@@ -15340,16 +15390,6 @@
 			(type default)
 		)
 		(uuid "d5a242c9-899c-4a09-ad8a-cebdbcd678bf")
-	)
-	(wire
-		(pts
-			(xy 72.39 62.23) (xy 73.66 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6eeac39-86fe-45ff-9e84-e060a7e1ae1f")
 	)
 	(wire
 		(pts
@@ -15393,7 +15433,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 46.99) (xy 96.52 46.99)
+			(xy 105.41 46.99) (xy 95.25 46.99)
 		)
 		(stroke
 			(width 0)
@@ -15433,7 +15473,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 50.8) (xy 96.52 50.8)
+			(xy 93.98 50.8) (xy 95.25 50.8)
 		)
 		(stroke
 			(width 0)
@@ -15533,17 +15573,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 63.5) (xy 154.94 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0dd25df-d59c-4157-b585-dfe44ba43de0")
-	)
-	(wire
-		(pts
-			(xy 73.66 105.41) (xy 73.66 114.3)
+			(xy 199.39 22.86) (xy 199.39 31.75)
 		)
 		(stroke
 			(width 0)
@@ -15613,7 +15643,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 102.87) (xy 77.47 102.87)
+			(xy 198.12 20.32) (xy 203.2 20.32)
 		)
 		(stroke
 			(width 0)
@@ -15653,7 +15683,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 20.32) (xy 194.31 29.21)
+			(xy 194.31 49.53) (xy 194.31 58.42)
 		)
 		(stroke
 			(width 0)
@@ -15693,7 +15723,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 39.37) (xy 134.62 39.37)
+			(xy 130.81 39.37) (xy 133.35 39.37)
 		)
 		(stroke
 			(width 0)
@@ -15733,7 +15763,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 46.99) (xy 96.52 45.72)
+			(xy 95.25 46.99) (xy 95.25 45.72)
 		)
 		(stroke
 			(width 0)
@@ -15773,7 +15803,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 30.48) (xy 199.39 30.48)
+			(xy 205.74 59.69) (xy 199.39 59.69)
 		)
 		(stroke
 			(width 0)
@@ -15873,7 +15903,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 24.13) (xy 120.65 24.13)
+			(xy 116.84 24.13) (xy 119.38 24.13)
 		)
 		(stroke
 			(width 0)
@@ -15943,7 +15973,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 60.96) (xy 99.06 60.96)
+			(xy 105.41 60.96) (xy 97.79 60.96)
 		)
 		(stroke
 			(width 0)
@@ -15963,7 +15993,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 35.56) (xy 154.94 35.56)
+			(xy 152.4 35.56) (xy 153.67 35.56)
 		)
 		(stroke
 			(width 0)
@@ -15983,7 +16013,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 68.58) (xy 140.97 68.58)
+			(xy 134.62 68.58) (xy 139.7 68.58)
 		)
 		(stroke
 			(width 0)
@@ -16013,7 +16043,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 52.07) (xy 171.45 53.34)
+			(xy 170.18 52.07) (xy 170.18 53.34)
 		)
 		(stroke
 			(width 0)
@@ -16053,7 +16083,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 49.53) (xy 153.67 49.53)
+			(xy 153.67 49.53) (xy 152.4 49.53)
 		)
 		(stroke
 			(width 0)
@@ -16063,7 +16093,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 63.5) (xy 138.43 63.5)
+			(xy 139.7 63.5) (xy 137.16 63.5)
 		)
 		(stroke
 			(width 0)
@@ -16203,7 +16233,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 31.75) (xy 120.65 24.13)
+			(xy 119.38 31.75) (xy 119.38 24.13)
 		)
 		(stroke
 			(width 0)
@@ -16243,7 +16273,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 24.13) (xy 120.65 20.32)
+			(xy 119.38 24.13) (xy 119.38 20.32)
 		)
 		(stroke
 			(width 0)
@@ -16342,7 +16372,7 @@
 		(uuid "192d1a30-d8c1-4d05-968f-60e5cd955a1a")
 	)
 	(label "~{SLEEP}"
-		(at 100.33 49.53 0)
+		(at 99.06 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16352,7 +16382,7 @@
 		(uuid "30f368a5-fc03-4ffe-a654-b5fcd1e5d7e8")
 	)
 	(label "I2C1_SDA"
-		(at 196.85 29.21 90)
+		(at 196.85 58.42 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16422,7 +16452,7 @@
 		(uuid "551d8428-2693-4a2b-9669-c87b44aaf24e")
 	)
 	(label "DIR"
-		(at 101.6 39.37 0)
+		(at 100.33 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16622,7 +16652,7 @@
 		(uuid "94415215-4b9a-4752-b0d7-5f7a1858f296")
 	)
 	(label "EN"
-		(at 101.6 41.91 0)
+		(at 100.33 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16772,7 +16802,7 @@
 		(uuid "d30bc5fa-9bde-4073-b57a-7820a04bd2a0")
 	)
 	(label "VPWM"
-		(at 168.91 35.56 180)
+		(at 167.64 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16802,7 +16832,7 @@
 		(uuid "d92c65dc-8b76-4004-ab25-8c0d9b56e3f9")
 	)
 	(label "STEP"
-		(at 101.6 36.83 0)
+		(at 100.33 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16842,7 +16872,7 @@
 		(uuid "e7a0ab6c-8a3a-4f77-a6cb-ca3136152522")
 	)
 	(label "I2C1_SCL"
-		(at 191.77 29.21 90)
+		(at 191.77 58.42 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16958,7 +16988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 97.4852 102.87 0)
 			(effects
 				(font
@@ -16977,6 +17007,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 96.52 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 96.52 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C440198"
+			(at 96.52 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 96.52 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM21BR61H106KE43L"
 			(at 96.52 99.06 0)
 			(effects
 				(font
@@ -17028,7 +17094,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 272.288 139.7 90)
 			(effects
 				(font
@@ -17055,6 +17121,42 @@
 				(hide yes)
 			)
 		)
+		(property "Basic" "Y"
+			(at 270.51 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C26083"
+			(at 270.51 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 270.51 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1004TCE"
+			(at 270.51 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c7a878f3-ee80-4830-bfe6-fcc88ebcc403")
 		)
@@ -17072,7 +17174,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 63.5 0)
+		(at 168.91 63.5 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17081,7 +17183,7 @@
 		(dnp no)
 		(uuid "033266c0-bfd0-461e-80ae-05e31b3f57bc")
 		(property "Reference" "#PWR083"
-			(at 170.18 69.85 0)
+			(at 168.91 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17090,7 +17192,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 174.244 65.024 0)
+			(at 172.974 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17099,7 +17201,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 63.5 0)
+			(at 168.91 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17108,7 +17210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 63.5 0)
+			(at 168.91 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17117,7 +17219,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 63.5 0)
+			(at 168.91 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17142,7 +17244,7 @@
 		(at 245.11 132.08 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -17166,7 +17268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 245.11 137.16 0)
 			(effects
 				(font
@@ -17571,7 +17673,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 193.04 121.158 90)
 			(effects
 				(font
@@ -17591,6 +17693,42 @@
 		)
 		(property "Description" "Resistor"
 			(at 193.04 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 193.04 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C11702"
+			(at 193.04 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 193.04 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1001TCE"
+			(at 193.04 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17707,7 +17845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 210.312 151.13 90)
 			(effects
 				(font
@@ -17726,6 +17864,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 212.09 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 212.09 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25076"
+			(at 212.09 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 212.09 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1000TCE"
 			(at 212.09 151.13 0)
 			(effects
 				(font
@@ -17816,15 +17990,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
-		(at 87.63 62.23 0)
+		(at 86.36 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0b2e4b5f-d230-4474-80de-305dbdc7562d")
 		(property "Reference" "J8"
-			(at 88.646 67.818 0)
+			(at 87.376 67.818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17832,7 +18006,7 @@
 			)
 		)
 		(property "Value" "Conn_02x03_Odd_Even"
-			(at 88.9 55.88 0)
+			(at 87.63 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17840,8 +18014,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 87.63 62.23 0)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical"
+			(at 86.36 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17850,7 +18024,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 62.23 0)
+			(at 86.36 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17859,7 +18033,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 87.63 62.23 0)
+			(at 86.36 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17922,7 +18096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 50.292 172.72 90)
 			(effects
 				(font
@@ -17941,6 +18115,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 52.07 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 52.07 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C17909"
+			(at 52.07 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 52.07 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "1206W4F1200T5E"
 			(at 52.07 172.72 0)
 			(effects
 				(font
@@ -17969,7 +18179,7 @@
 		(at 91.44 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0d65f4d3-2a18-43f7-a508-2381b0e95175")
@@ -17990,7 +18200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical"
 			(at 91.44 180.34 0)
 			(effects
 				(font
@@ -18135,7 +18345,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 133.35 67.31 0)
+		(at 132.08 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18143,7 +18353,7 @@
 		(dnp no)
 		(uuid "0e8edb41-187c-4054-a794-470e05332261")
 		(property "Reference" "C42"
-			(at 125.476 67.564 0)
+			(at 124.206 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18152,7 +18362,7 @@
 			)
 		)
 		(property "Value" "0u47"
-			(at 125.476 70.104 0)
+			(at 124.206 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18160,8 +18370,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 133.35 67.31 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 132.08 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18170,7 +18380,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 67.31 0)
+			(at 132.08 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18179,7 +18389,43 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 133.35 67.31 0)
+			(at 132.08 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 132.08 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1623"
+			(at 132.08 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 132.08 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10B474KA8NNNC"
+			(at 132.08 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18228,7 +18474,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 215.9 104.4448 0)
 			(effects
 				(font
@@ -18255,6 +18501,42 @@
 				(hide yes)
 			)
 		)
+		(property "Basic" "Y"
+			(at 219.71 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C52923"
+			(at 219.71 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 219.71 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
+			(at 219.71 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "81895ea5-52ec-48c9-b220-75fbdbd20422")
 		)
@@ -18272,15 +18554,15 @@
 	)
 	(symbol
 		(lib_id "Motor:Stepper_Motor_bipolar")
-		(at 142.24 36.83 90)
+		(at 140.97 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0ef04f12-0c9b-413f-9dfb-612c68dab12e")
 		(property "Reference" "M2"
-			(at 141.224 32.004 90)
+			(at 139.954 32.004 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18289,7 +18571,7 @@
 			)
 		)
 		(property "Value" "Stepper_Motor_bipolar"
-			(at 147.32 38.9508 90)
+			(at 146.05 38.9508 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18298,8 +18580,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 142.494 36.576 0)
+		(property "Footprint" "GLCS:JST_XH_S6B-XH-A_Stepper_1x06_P2.50mm_Horizontal"
+			(at 141.224 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18308,7 +18590,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
-			(at 142.494 36.576 0)
+			(at 141.224 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18317,7 +18599,7 @@
 			)
 		)
 		(property "Description" "4-wire bipolar stepper motor"
-			(at 142.24 36.83 0)
+			(at 140.97 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18393,6 +18675,42 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M3 MCU, 64KB flash, 20KB RAM, 72 MHz, 2.0-3.6V, 37 GPIO, LQFP48"
+			(at 144.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "E"
+			(at 144.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C8734"
+			(at 144.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 144.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "STM32F103C8T6"
 			(at 144.78 148.59 0)
 			(effects
 				(font
@@ -18607,7 +18925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 26.9748 125.73 0)
 			(effects
 				(font
@@ -18626,6 +18944,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 27.94 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 27.94 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C52923"
+			(at 27.94 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 27.94 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
 			(at 27.94 121.92 0)
 			(effects
 				(font
@@ -18675,7 +19029,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 115.57 118.872 90)
 			(effects
 				(font
@@ -18695,6 +19049,42 @@
 		)
 		(property "Description" "Resistor"
 			(at 115.57 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 115.57 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25744"
+			(at 115.57 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 115.57 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
+			(at 115.57 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18744,7 +19134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 203.2 147.0152 0)
 			(effects
 				(font
@@ -18764,6 +19154,42 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 207.01 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 207.01 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C307331"
+			(at 207.01 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 207.01 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KB54PNC"
+			(at 207.01 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18878,7 +19304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 129.2352 102.87 0)
 			(effects
 				(font
@@ -18897,6 +19323,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C307331"
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KB54PNC"
 			(at 128.27 99.06 0)
 			(effects
 				(font
@@ -18989,7 +19451,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 171.45 48.26 0)
+		(at 170.18 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18997,7 +19459,7 @@
 		(dnp no)
 		(uuid "14b87b37-99cc-4dc7-865e-f4c5829bfade")
 		(property "Reference" "#PWR084"
-			(at 171.45 52.07 0)
+			(at 170.18 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19006,7 +19468,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 171.45 44.45 0)
+			(at 170.18 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19014,7 +19476,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 48.26 0)
+			(at 170.18 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19023,7 +19485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 48.26 0)
+			(at 170.18 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19032,7 +19494,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 171.45 48.26 0)
+			(at 170.18 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19661,6 +20123,42 @@
 				(hide yes)
 			)
 		)
+		(property "Basic" "X"
+			(at 227.33 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2866527"
+			(at 227.33 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 227.33 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "BQ7790509PWR"
+			(at 227.33 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "cf0dd5dd-0ab7-4fbd-9fae-ad23b0cdb810")
 		)
@@ -19732,16 +20230,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
-		(at 87.63 50.8 0)
+		(at 86.36 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c6eb70f-f219-475b-a02c-6eabd03b32ed")
 		(property "Reference" "J7"
-			(at 88.9 46.99 0)
+			(at 87.63 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19749,7 +20247,7 @@
 			)
 		)
 		(property "Value" "Conn_02x02_Odd_Even"
-			(at 88.9 46.99 0)
+			(at 87.63 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19757,8 +20255,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 87.63 50.8 0)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Vertical"
+			(at 86.36 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19767,7 +20265,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 50.8 0)
+			(at 86.36 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19776,7 +20274,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 87.63 50.8 0)
+			(at 86.36 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20016,7 +20514,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 115.57 0)
+		(at 203.2 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20024,7 +20522,7 @@
 		(dnp no)
 		(uuid "2039a33d-4022-4129-96c5-079002ad7580")
 		(property "Reference" "#PWR035"
-			(at 77.47 121.92 0)
+			(at 203.2 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20033,7 +20531,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.406 117.094 0)
+			(at 199.136 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20042,7 +20540,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 115.57 0)
+			(at 203.2 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20051,7 +20549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 115.57 0)
+			(at 203.2 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20060,7 +20558,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 115.57 0)
+			(at 203.2 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20107,7 +20605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 200.3552 142.24 0)
 			(effects
 				(font
@@ -20126,6 +20624,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 199.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 199.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C307331"
+			(at 199.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 199.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KB54PNC"
 			(at 199.39 138.43 0)
 			(effects
 				(font
@@ -20154,7 +20688,7 @@
 		(at 256.54 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2266f733-d4cf-4b59-b5cf-8a199923c470")
@@ -20174,7 +20708,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 256.54 114.3 0)
 			(effects
 				(font
@@ -20221,7 +20755,7 @@
 		(at 120.65 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -20243,7 +20777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x01_P1.27mm_Vertical"
 			(at 120.65 148.59 0)
 			(effects
 				(font
@@ -20290,7 +20824,7 @@
 		(at 257.81 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2388f906-a098-4283-b142-fc02ba07520e")
@@ -20313,7 +20847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 262.89 57.15 0)
 			(effects
 				(font
@@ -20380,7 +20914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 56.388 85.09 90)
 			(effects
 				(font
@@ -20399,6 +20933,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 54.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 54.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C4184"
+			(at 54.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 54.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0603WAF2002T5E"
 			(at 54.61 85.09 0)
 			(effects
 				(font
@@ -20432,7 +21002,7 @@
 		(dnp no)
 		(uuid "25092cd2-5d47-46da-92ad-4d9131639f33")
 		(property "Reference" "C14"
-			(at 277.114 22.86 0)
+			(at 276.86 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20440,8 +21010,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "bulk"
-			(at 277.114 25.4 0)
+		(property "Value" "100u"
+			(at 276.86 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20449,7 +21019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 275.2852 27.94 0)
 			(effects
 				(font
@@ -20468,6 +21038,42 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 274.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "X"
+			(at 274.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C165974"
+			(at 274.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "PANASONIC"
+			(at 274.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "EEEFTH101XAP"
 			(at 274.32 24.13 0)
 			(effects
 				(font
@@ -20559,7 +21165,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 77.47 62.23 270)
+		(at 77.47 67.31 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20568,23 +21174,25 @@
 		(dnp no)
 		(uuid "268c5ee5-47b2-400d-a6ab-a7714bf33818")
 		(property "Reference" "R35"
-			(at 75.438 56.896 90)
+			(at 84.328 67.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "330k"
-			(at 75.438 59.436 90)
+			(at 85.09 69.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 77.47 64.008 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 75.692 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20593,7 +21201,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 62.23 0)
+			(at 77.47 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20602,7 +21210,43 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 77.47 62.23 0)
+			(at 77.47 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 77.47 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C23137"
+			(at 77.47 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 77.47 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0603WAF3303T5E"
+			(at 77.47 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20617,7 +21261,7 @@
 			(uuid "5e153041-213c-4acd-b850-8ed1b16ddc29")
 		)
 		(instances
-			(project ""
+			(project "stm32f1-battery-poc"
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
 					(reference "R35")
 					(unit 1)
@@ -20853,7 +21497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 195.8848 154.94 0)
 			(effects
 				(font
@@ -20880,6 +21524,42 @@
 				(hide yes)
 			)
 		)
+		(property "Basic" "Y"
+			(at 196.85 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C307331"
+			(at 196.85 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 196.85 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KB54PNC"
+			(at 196.85 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "01c7149c-49ec-487d-b32a-1fb3069e3c31")
 		)
@@ -20897,7 +21577,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 67.31 105.41 180)
+		(at 193.04 22.86 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -20905,7 +21585,7 @@
 		(dnp no)
 		(uuid "28dd3927-17e0-4eac-98b6-aad69a418f98")
 		(property "Reference" "J3"
-			(at 67.31 108.204 0)
+			(at 193.04 25.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20913,7 +21593,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 67.31 99.06 0)
+			(at 193.04 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20922,7 +21602,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 67.31 105.41 0)
+			(at 193.04 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20931,7 +21611,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 105.41 0)
+			(at 193.04 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20940,7 +21620,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 67.31 105.41 0)
+			(at 193.04 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21055,7 +21735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 108.9152 102.87 0)
 			(effects
 				(font
@@ -21074,6 +21754,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 107.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 107.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C307331"
+			(at 107.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 107.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KB54PNC"
 			(at 107.95 99.06 0)
 			(effects
 				(font
@@ -21122,7 +21838,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 193.04 135.128 90)
 			(effects
 				(font
@@ -21142,6 +21858,42 @@
 		)
 		(property "Description" "Resistor"
 			(at 193.04 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 193.04 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C11702"
+			(at 193.04 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 193.04 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1001TCE"
+			(at 193.04 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21255,7 +22007,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 245.11 113.538 90)
 			(effects
 				(font
@@ -21275,6 +22027,42 @@
 		)
 		(property "Description" "Resistor"
 			(at 245.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 245.11 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25744"
+			(at 245.11 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 245.11 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
+			(at 245.11 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21325,7 +22113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 51.7652 152.4 0)
 			(effects
 				(font
@@ -21344,6 +22132,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 50.8 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 50.8 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C440198"
+			(at 50.8 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 50.8 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM21BR61H106KE43L"
 			(at 50.8 148.59 0)
 			(effects
 				(font
@@ -21394,7 +22218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 230.8352 33.02 0)
 			(effects
 				(font
@@ -21413,6 +22237,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.87 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 229.87 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C15195"
+			(at 229.87 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 229.87 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B103KB5NNNC"
 			(at 229.87 29.21 0)
 			(effects
 				(font
@@ -21498,7 +22358,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "0603CG300J500NT"
+		(property "JLCPCB Part #" "C1658"
 			(at 109.22 135.89 90)
 			(effects
 				(font
@@ -21545,7 +22405,7 @@
 		(at 184.15 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2eb007d2-aae0-4a64-bba3-51205a100422")
@@ -21568,7 +22428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GLCS:BatteryHolder_MYOUNG_BH-18650-B1BA002"
 			(at 184.15 126.746 90)
 			(effects
 				(font
@@ -21744,7 +22604,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 216.2048 33.02 0)
 			(effects
 				(font
@@ -21771,6 +22631,42 @@
 				(hide yes)
 			)
 		)
+		(property "Basic" "Y"
+			(at 217.17 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C52923"
+			(at 217.17 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 217.17 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
+			(at 217.17 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9d2a17d2-dee8-4739-8054-1ae7c07edc61")
 		)
@@ -21788,7 +22684,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 125.73 25.4 0)
+		(at 124.46 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21796,7 +22692,7 @@
 		(dnp no)
 		(uuid "34401be8-812b-4a93-af67-907374fa23e8")
 		(property "Reference" "C40"
-			(at 128.524 24.13 0)
+			(at 127.254 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21805,7 +22701,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 128.524 26.67 0)
+			(at 127.254 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21813,8 +22709,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 126.6952 29.21 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 125.4252 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21823,7 +22719,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 25.4 0)
+			(at 124.46 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21832,7 +22728,43 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 125.73 25.4 0)
+			(at 124.46 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 124.46 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C15195"
+			(at 124.46 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 124.46 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B103KB5NNNC"
+			(at 124.46 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21928,7 +22860,7 @@
 		(at 64.77 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "35645102-dcca-4687-a0ae-ace1db7dd1a9")
@@ -21951,7 +22883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 64.77 177.8 0)
 			(effects
 				(font
@@ -22376,7 +23308,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 236.982 151.13 90)
 			(effects
 				(font
@@ -22395,6 +23327,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 238.76 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 238.76 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C26083"
+			(at 238.76 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 238.76 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1004TCE"
 			(at 238.76 151.13 0)
 			(effects
 				(font
@@ -22423,7 +23391,7 @@
 		(at 256.54 124.46 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3d104289-b51c-44c0-9f51-17cf2b197ee1")
@@ -22446,7 +23414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 251.46 124.46 0)
 			(effects
 				(font
@@ -22673,6 +23641,42 @@
 				(hide yes)
 			)
 		)
+		(property "Basic" "E"
+			(at 40.64 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C12084"
+			(at 40.64 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 40.64 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SN65HVD230DR"
+			(at 40.64 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "c38824d3-3890-45bc-a426-76033e161686")
 		)
@@ -22811,7 +23815,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 77.47 109.22 90)
+		(at 203.2 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22819,7 +23823,7 @@
 		(dnp no)
 		(uuid "44925166-57b9-4ae0-a44a-e9865b490921")
 		(property "Reference" "D2"
-			(at 79.502 108.966 90)
+			(at 205.232 26.416 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22828,7 +23832,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 80.01 110.4899 90)
+			(at 205.74 27.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22838,7 +23842,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 77.47 109.22 0)
+			(at 203.2 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22847,7 +23851,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 109.22 0)
+			(at 203.2 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22856,7 +23860,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 77.47 109.22 0)
+			(at 203.2 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22865,7 +23869,7 @@
 			)
 		)
 		(property "Basic" "E"
-			(at 77.47 109.22 90)
+			(at 203.2 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22874,7 +23878,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C2925441"
-			(at 77.47 109.22 90)
+			(at 203.2 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22883,7 +23887,7 @@
 			)
 		)
 		(property "Manufacturer" "Liown"
-			(at 77.47 109.22 90)
+			(at 203.2 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22892,7 +23896,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "SMBJ30CA"
-			(at 77.47 109.22 90)
+			(at 203.2 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23121,7 +24125,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 220.98 25.908 90)
 			(effects
 				(font
@@ -23141,6 +24145,42 @@
 		)
 		(property "Description" "Ferrite bead, small symbol"
 			(at 220.98 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 220.98 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1015"
+			(at 220.98 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 220.98 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GZ2012D101TF"
+			(at 220.98 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23268,7 +24308,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 171.45 57.15 180)
+		(at 170.18 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23276,7 +24316,7 @@
 		(dnp no)
 		(uuid "489a573d-dc98-4a69-aa47-a90ec2beb140")
 		(property "Reference" "R36"
-			(at 163.576 56.896 0)
+			(at 162.306 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23285,7 +24325,7 @@
 			)
 		)
 		(property "Value" "330k"
-			(at 163.576 59.436 0)
+			(at 162.306 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23293,8 +24333,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 173.228 57.15 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 171.958 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23303,7 +24343,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 57.15 0)
+			(at 170.18 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23312,7 +24352,43 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 171.45 57.15 0)
+			(at 170.18 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 170.18 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C23137"
+			(at 170.18 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 170.18 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0603WAF3303T5E"
+			(at 170.18 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23337,7 +24413,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 153.67 40.64 0)
+		(at 152.4 40.64 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23347,7 +24423,7 @@
 		(fields_autoplaced yes)
 		(uuid "498b3949-ca58-4176-9856-98ca299d2334")
 		(property "Reference" "C43"
-			(at 157.48 39.3699 0)
+			(at 156.21 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23356,7 +24432,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 157.48 41.9099 0)
+			(at 156.21 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23364,8 +24440,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 152.7048 44.45 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 151.4348 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23374,7 +24450,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 40.64 0)
+			(at 152.4 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23383,7 +24459,43 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 153.67 40.64 0)
+			(at 152.4 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 152.4 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C52923"
+			(at 152.4 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 152.4 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
+			(at 152.4 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23433,7 +24545,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 166.37 98.0948 0)
 			(effects
 				(font
@@ -23453,6 +24565,42 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 162.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 162.56 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C52923"
+			(at 162.56 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 162.56 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
+			(at 162.56 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23502,7 +24650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 119.0752 102.87 0)
 			(effects
 				(font
@@ -23521,6 +24669,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 118.11 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 118.11 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C307331"
+			(at 118.11 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 118.11 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KB54PNC"
 			(at 118.11 99.06 0)
 			(effects
 				(font
@@ -23606,7 +24790,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "0603CG300J500NT"
+		(property "JLCPCB Part #" "C1658"
 			(at 109.22 125.73 90)
 			(effects
 				(font
@@ -23653,7 +24837,7 @@
 		(at 257.81 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4dbea354-0e47-4142-9780-f1a98eb49750")
@@ -23676,7 +24860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 252.73 119.38 0)
 			(effects
 				(font
@@ -23787,7 +24971,7 @@
 		(at 223.52 72.39 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "511243ac-bbcc-4aa2-b827-ec3cdc6f06e0")
@@ -23810,7 +24994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 218.44 72.39 0)
 			(effects
 				(font
@@ -24010,7 +25194,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 263.1948 20.32 0)
 			(effects
 				(font
@@ -24029,6 +25213,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 264.16 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 264.16 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C440198"
+			(at 264.16 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 264.16 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM21BR61H106KE43L"
 			(at 264.16 24.13 0)
 			(effects
 				(font
@@ -24057,7 +25277,7 @@
 		(at 233.68 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -24081,7 +25301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 238.76 24.13 0)
 			(effects
 				(font
@@ -24292,7 +25512,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 69.85 0)
+		(at 118.11 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24300,7 +25520,7 @@
 		(dnp no)
 		(uuid "56ddb18b-ca95-4c8d-a8fe-c2d2028641bb")
 		(property "Reference" "#PWR077"
-			(at 119.38 76.2 0)
+			(at 118.11 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24309,7 +25529,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.316 71.374 0)
+			(at 114.046 71.374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24318,7 +25538,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 69.85 0)
+			(at 118.11 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24327,7 +25547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 69.85 0)
+			(at 118.11 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24336,7 +25556,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 69.85 0)
+			(at 118.11 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24450,7 +25670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GLCS:Texas_RRW0024A_WQFN-24-1EP_2x2mm_P0.4mmThermalVias"
 			(at 241.3 57.15 0)
 			(effects
 				(font
@@ -24469,6 +25689,42 @@
 			)
 		)
 		(property "Description" "3V to 20V, 3-phase brushless DC motor driver with integrated FETs"
+			(at 241.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "X"
+			(at 241.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5218862"
+			(at 241.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 241.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "DRV8311HRRWR"
 			(at 241.3 57.15 0)
 			(effects
 				(font
@@ -24691,7 +25947,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 267.97 50.4952 0)
 			(effects
 				(font
@@ -24711,6 +25967,42 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 264.16 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 264.16 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C52923"
+			(at 264.16 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 264.16 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
+			(at 264.16 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24778,6 +26070,42 @@
 			)
 		)
 		(property "Description" "100mA Low Dropout Voltage Regulator, Fixed Output, SOT89"
+			(at 39.37 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 39.37 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C14289"
+			(at 39.37 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Holtek Semicon"
+			(at 39.37 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "HT7533-1"
 			(at 39.37 146.05 0)
 			(effects
 				(font
@@ -25049,7 +26377,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 78.74 101.6 0)
+		(at 204.47 19.05 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25058,7 +26386,7 @@
 		(dnp no)
 		(uuid "63981951-9323-48a2-bede-c7b7d18041bf")
 		(property "Reference" "#PWR036"
-			(at 78.74 105.41 0)
+			(at 204.47 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25067,7 +26395,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 74.676 99.822 0)
+			(at 200.406 17.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25075,7 +26403,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 101.6 0)
+			(at 204.47 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25084,7 +26412,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 101.6 0)
+			(at 204.47 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25093,7 +26421,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 78.74 101.6 0)
+			(at 204.47 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25253,7 +26581,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6ad1c22a-c9ec-4903-a6af-a1cedfeac166")
@@ -25276,7 +26604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 73.66 143.51 0)
 			(effects
 				(font
@@ -25342,7 +26670,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 273.3548 35.56 0)
 			(effects
 				(font
@@ -25369,6 +26697,42 @@
 				(hide yes)
 			)
 		)
+		(property "Basic" "Y"
+			(at 274.32 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C440198"
+			(at 274.32 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 274.32 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM21BR61H106KE43L"
+			(at 274.32 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "33a39d58-9e45-49df-a364-f8cf3407c347")
 		)
@@ -25386,7 +26750,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 78.74 49.53 0)
+		(at 77.47 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25394,7 +26758,7 @@
 		(dnp no)
 		(uuid "6c3c7668-7f1d-475b-bf4e-6ee0269d692e")
 		(property "Reference" "#PWR081"
-			(at 78.74 53.34 0)
+			(at 77.47 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25403,7 +26767,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 78.74 45.72 0)
+			(at 77.47 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25411,7 +26775,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 49.53 0)
+			(at 77.47 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25420,7 +26784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 49.53 0)
+			(at 77.47 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25429,7 +26793,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 78.74 49.53 0)
+			(at 77.47 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25477,7 +26841,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 216.662 52.07 90)
 			(effects
 				(font
@@ -25496,6 +26860,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 218.44 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 218.44 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25744"
+			(at 218.44 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 218.44 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
 			(at 218.44 52.07 0)
 			(effects
 				(font
@@ -25544,7 +26944,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 159.258 90.17 90)
 			(effects
 				(font
@@ -25563,6 +26963,42 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
+			(at 157.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 157.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1015"
+			(at 157.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 157.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GZ2012D101TF"
 			(at 157.48 90.17 0)
 			(effects
 				(font
@@ -25615,7 +27051,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 98.552 158.75 90)
 			(effects
 				(font
@@ -25634,6 +27070,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 100.33 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 100.33 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25744"
+			(at 100.33 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 100.33 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
 			(at 100.33 158.75 0)
 			(effects
 				(font
@@ -25710,6 +27182,42 @@
 				(hide yes)
 			)
 		)
+		(property "Basic" "X"
+			(at 39.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5145267"
+			(at 39.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HANSCHIP semiconductor"
+			(at 39.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LM78M05ACKTPRG"
+			(at 39.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a70ceabd-f1b3-4849-800b-4cde85c64c25")
 		)
@@ -25754,7 +27262,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 24.13 181.102 90)
 			(effects
 				(font
@@ -25774,6 +27282,42 @@
 		)
 		(property "Description" "Resistor"
 			(at 24.13 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 24.13 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25744"
+			(at 24.13 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 24.13 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
+			(at 24.13 182.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25823,7 +27367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 200.3552 128.27 0)
 			(effects
 				(font
@@ -25850,6 +27394,42 @@
 				(hide yes)
 			)
 		)
+		(property "Basic" "Y"
+			(at 199.39 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C307331"
+			(at 199.39 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 199.39 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KB54PNC"
+			(at 199.39 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "68a57feb-69d2-4c2c-bb95-6d9bf1dce31a")
 		)
@@ -25867,7 +27447,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 72.39 0)
+		(at 153.67 72.39 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25876,7 +27456,7 @@
 		(dnp no)
 		(uuid "708835c0-de97-4ab5-8519-5a9e1006ccd1")
 		(property "Reference" "#PWR087"
-			(at 154.94 78.74 0)
+			(at 153.67 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25885,7 +27465,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 159.004 73.914 0)
+			(at 157.734 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25894,7 +27474,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 72.39 0)
+			(at 153.67 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25903,7 +27483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 72.39 0)
+			(at 153.67 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25912,7 +27492,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 72.39 0)
+			(at 153.67 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26026,7 +27606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 200.3552 115.57 0)
 			(effects
 				(font
@@ -26045,6 +27625,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 199.39 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 199.39 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C307331"
+			(at 199.39 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 199.39 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KB54PNC"
 			(at 199.39 111.76 0)
 			(effects
 				(font
@@ -26096,7 +27712,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 166.37 107.6452 0)
 			(effects
 				(font
@@ -26116,6 +27732,42 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 162.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 162.56 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C15195"
+			(at 162.56 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 162.56 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B103KB5NNNC"
+			(at 162.56 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26229,7 +27881,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 31.75 166.6748 0)
 			(effects
 				(font
@@ -26256,6 +27908,42 @@
 				(hide yes)
 			)
 		)
+		(property "Basic" "Y"
+			(at 35.56 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C307331"
+			(at 35.56 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 35.56 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KB54PNC"
+			(at 35.56 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e6243e11-2bd1-4980-a627-1cb1ca85863e")
 		)
@@ -26273,7 +27961,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 31.75 0)
+		(at 129.54 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26282,7 +27970,7 @@
 		(fields_autoplaced yes)
 		(uuid "7613e961-5f42-4b82-9929-8bddd8237735")
 		(property "Reference" "#PWR076"
-			(at 130.81 38.1 0)
+			(at 129.54 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26291,7 +27979,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 36.83 0)
+			(at 129.54 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26300,7 +27988,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 31.75 0)
+			(at 129.54 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26309,7 +27997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 31.75 0)
+			(at 129.54 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26318,7 +28006,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 31.75 0)
+			(at 129.54 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26578,7 +28266,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 102.87 63.5 270)
+		(at 101.6 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26586,7 +28274,7 @@
 		(dnp no)
 		(uuid "7b06a079-38a3-4329-bd8c-09bf74582932")
 		(property "Reference" "C38"
-			(at 99.822 65.786 90)
+			(at 98.552 65.786 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26594,15 +28282,15 @@
 			)
 		)
 		(property "Value" "22n"
-			(at 99.822 68.326 90)
+			(at 98.552 68.326 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 102.87 63.5 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 101.6 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26611,7 +28299,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 63.5 0)
+			(at 101.6 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26620,7 +28308,43 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 102.87 63.5 0)
+			(at 101.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 101.6 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1532"
+			(at 101.6 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 101.6 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402B223K500NT"
+			(at 101.6 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26710,7 +28434,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 135.89 25.4 0)
+		(at 134.62 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26719,7 +28443,7 @@
 		(fields_autoplaced yes)
 		(uuid "7bd2efc7-7099-49e6-9535-b48921352f05")
 		(property "Reference" "C41"
-			(at 139.7 23.2409 0)
+			(at 138.43 23.2409 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26728,7 +28452,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 139.7 25.7809 0)
+			(at 138.43 25.7809 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26736,8 +28460,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 136.8552 29.21 0)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 135.5852 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26746,7 +28470,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 25.4 0)
+			(at 134.62 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26755,7 +28479,43 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 135.89 25.4 0)
+			(at 134.62 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "X"
+			(at 134.62 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C165974"
+			(at 134.62 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "PANASONIC"
+			(at 134.62 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "EEEFTH101XAP"
+			(at 134.62 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26917,7 +28677,7 @@
 		(at 24.13 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7e6d0eed-c72c-4167-909e-0528613ef832")
@@ -26938,7 +28698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x01_P1.27mm_Vertical"
 			(at 24.13 180.34 0)
 			(effects
 				(font
@@ -26985,7 +28745,7 @@
 		(at 266.7 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "82804a54-1690-410a-b5e5-14935c2e392e")
@@ -27008,7 +28768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 266.7 60.706 0)
 			(effects
 				(font
@@ -27328,7 +29088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 103.1748 119.38 0)
 			(effects
 				(font
@@ -27347,6 +29107,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 104.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 104.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C307331"
+			(at 104.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 104.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KB54PNC"
 			(at 104.14 115.57 0)
 			(effects
 				(font
@@ -27850,16 +29646,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
-		(at 162.56 52.07 0)
+		(at 161.29 52.07 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "90235854-11e7-40a9-8fc7-769494d1599c")
 		(property "Reference" "J9"
-			(at 161.29 46.736 0)
+			(at 160.02 46.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27867,7 +29663,7 @@
 			)
 		)
 		(property "Value" "Conn_02x03_Odd_Even"
-			(at 161.29 45.72 0)
+			(at 160.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27875,8 +29671,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 162.56 52.07 0)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical"
+			(at 161.29 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27885,7 +29681,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 52.07 0)
+			(at 161.29 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27894,7 +29690,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 162.56 52.07 0)
+			(at 161.29 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27934,7 +29730,7 @@
 		(at 157.48 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -27957,7 +29753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 157.48 97.79 0)
 			(effects
 				(font
@@ -27998,7 +29794,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 54.61 0)
+		(at 80.01 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28006,7 +29802,7 @@
 		(dnp no)
 		(uuid "961a8164-f61c-4ae3-917d-c9af6292e4ad")
 		(property "Reference" "#PWR080"
-			(at 81.28 60.96 0)
+			(at 80.01 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28015,7 +29811,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.216 56.134 0)
+			(at 75.946 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28024,7 +29820,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 54.61 0)
+			(at 80.01 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28033,7 +29829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 54.61 0)
+			(at 80.01 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28042,7 +29838,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 54.61 0)
+			(at 80.01 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28237,7 +30033,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 158.75 35.56 90)
+		(at 157.48 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28246,7 +30042,7 @@
 		(fields_autoplaced yes)
 		(uuid "977fedb6-1c2a-4f47-bbb6-3398f5c0ef11")
 		(property "Reference" "R39"
-			(at 158.75 29.21 90)
+			(at 157.48 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28254,15 +30050,15 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 158.75 31.75 90)
+			(at 157.48 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 158.75 37.338 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 157.48 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28271,7 +30067,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 35.56 0)
+			(at 157.48 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28280,7 +30076,43 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 158.75 35.56 0)
+			(at 157.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 157.48 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C11702"
+			(at 157.48 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 157.48 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1001TCE"
+			(at 157.48 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28420,16 +30252,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
-		(at 148.59 60.96 0)
+		(at 147.32 60.96 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9917537f-ec39-48e8-abeb-c16dc25612d9")
 		(property "Reference" "J10"
-			(at 147.32 66.294 0)
+			(at 146.05 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28437,7 +30269,7 @@
 			)
 		)
 		(property "Value" "Conn_02x02_Odd_Even"
-			(at 147.32 57.15 0)
+			(at 146.05 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28445,8 +30277,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 148.59 60.96 0)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Vertical"
+			(at 147.32 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28455,7 +30287,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 60.96 0)
+			(at 147.32 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28464,7 +30296,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 148.59 60.96 0)
+			(at 147.32 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28498,7 +30330,7 @@
 		(at 83.82 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9bcf21d3-5ae3-4e51-96be-b14f110a1067")
@@ -28521,7 +30353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 88.9 185.42 0)
 			(effects
 				(font
@@ -28587,7 +30419,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 138.1252 102.87 0)
 			(effects
 				(font
@@ -28606,6 +30438,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C307331"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KB54PNC"
 			(at 137.16 99.06 0)
 			(effects
 				(font
@@ -28866,16 +30734,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
-		(at 148.59 68.58 0)
+		(at 147.32 68.58 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a1199ab2-45df-4811-8db8-0c1d675e5841")
 		(property "Reference" "J11"
-			(at 147.066 73.914 0)
+			(at 145.796 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28883,7 +30751,7 @@
 			)
 		)
 		(property "Value" "Conn_02x02_Odd_Even"
-			(at 147.32 64.77 0)
+			(at 146.05 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28891,8 +30759,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 148.59 68.58 0)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Vertical"
+			(at 147.32 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28901,7 +30769,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 68.58 0)
+			(at 147.32 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28910,7 +30778,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 148.59 68.58 0)
+			(at 147.32 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28968,7 +30836,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 107.442 158.75 90)
 			(effects
 				(font
@@ -28987,6 +30855,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.22 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 109.22 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25744"
+			(at 109.22 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 109.22 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
 			(at 109.22 158.75 0)
 			(effects
 				(font
@@ -29015,7 +30919,7 @@
 		(at 193.04 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a24da24e-ced1-402c-9b54-61be69c3828e")
@@ -29036,7 +30940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 193.04 96.52 0)
 			(effects
 				(font
@@ -29103,7 +31007,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 248.92 30.7848 0)
 			(effects
 				(font
@@ -29123,6 +31027,42 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 245.11 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 245.11 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C307331"
+			(at 245.11 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 245.11 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KB54PNC"
+			(at 245.11 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29150,7 +31090,7 @@
 		(at 267.97 156.21 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -29174,7 +31114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 262.89 156.21 0)
 			(effects
 				(font
@@ -29324,7 +31264,7 @@
 		(at 52.07 116.84 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a4ed8136-858c-4a4a-84b9-e9ae5d2913c5")
@@ -29347,7 +31287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 52.07 121.92 0)
 			(effects
 				(font
@@ -29391,7 +31331,7 @@
 		(at 226.06 156.21 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -29415,7 +31355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 220.98 156.21 0)
 			(effects
 				(font
@@ -29459,7 +31399,7 @@
 		(at 227.33 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a9df46dd-4d0e-4de8-90d6-3ac09b373c69")
@@ -29482,7 +31422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 232.41 41.91 0)
 			(effects
 				(font
@@ -29523,7 +31463,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 29.21 0)
+		(at 194.31 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29531,7 +31471,7 @@
 		(dnp no)
 		(uuid "abb49da9-31ca-4c9e-a418-d4711c315cde")
 		(property "Reference" "#PWR089"
-			(at 194.31 35.56 0)
+			(at 194.31 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29540,7 +31480,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.342 33.02 0)
+			(at 192.532 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29549,7 +31489,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 29.21 0)
+			(at 194.31 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29558,7 +31498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 29.21 0)
+			(at 194.31 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29567,7 +31507,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 29.21 0)
+			(at 194.31 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29612,7 +31552,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 204.47 98.298 90)
 			(effects
 				(font
@@ -29639,6 +31579,42 @@
 				(hide yes)
 			)
 		)
+		(property "Basic" "Y"
+			(at 204.47 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C11702"
+			(at 204.47 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 204.47 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1001TCE"
+			(at 204.47 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "db78c863-a7c9-4fea-b53f-1b1cf8559b92")
 		)
@@ -29656,7 +31632,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 71.12 0)
+		(at 132.08 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29664,7 +31640,7 @@
 		(dnp no)
 		(uuid "ac6c8041-a38c-42cc-8dc7-02e1546c1f4e")
 		(property "Reference" "#PWR078"
-			(at 133.35 77.47 0)
+			(at 132.08 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29673,7 +31649,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.286 72.644 0)
+			(at 128.016 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29682,7 +31658,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 71.12 0)
+			(at 132.08 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29691,7 +31667,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 71.12 0)
+			(at 132.08 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29700,7 +31676,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 71.12 0)
+			(at 132.08 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29879,7 +31855,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 77.47 187.198 90)
 			(effects
 				(font
@@ -29899,6 +31875,42 @@
 		)
 		(property "Description" "Resistor"
 			(at 77.47 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 77.47 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25076"
+			(at 77.47 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 77.47 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1000TCE"
+			(at 77.47 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29946,7 +31958,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 207.01 157.988 90)
 			(effects
 				(font
@@ -29973,6 +31985,42 @@
 				(hide yes)
 			)
 		)
+		(property "Basic" "X"
+			(at 207.01 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C105362"
+			(at 207.01 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "PSA(Prosperity Dielectrics)"
+			(at 207.01 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "FMF06FTHR010-LH"
+			(at 207.01 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54eeeeac-acb4-4093-a2d8-396ae1472a3f")
 		)
@@ -29990,7 +32038,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 196.85 15.24 270)
+		(at 196.85 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -29998,7 +32046,7 @@
 		(dnp no)
 		(uuid "affc9d3b-1f44-4899-a68b-23912449a347")
 		(property "Reference" "J12"
-			(at 202.184 15.494 90)
+			(at 202.184 44.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30006,7 +32054,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 195.58 12.7 90)
+			(at 195.58 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30015,7 +32063,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 196.85 15.24 0)
+			(at 196.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30024,7 +32072,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 15.24 0)
+			(at 196.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30033,7 +32081,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 196.85 15.24 0)
+			(at 196.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30089,7 +32137,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 166.37 84.1248 0)
 			(effects
 				(font
@@ -30109,6 +32157,42 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 162.56 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C52923"
+			(at 162.56 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 162.56 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
+			(at 162.56 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30159,7 +32243,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 223.8248 33.02 0)
 			(effects
 				(font
@@ -30186,6 +32270,42 @@
 				(hide yes)
 			)
 		)
+		(property "Basic" "Y"
+			(at 224.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C52923"
+			(at 224.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 224.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
+			(at 224.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bf154653-2154-4b2c-ad2f-d0ea9e8e6ac9")
 		)
@@ -30203,7 +32323,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 135.89 19.05 0)
+		(at 134.62 19.05 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30212,7 +32332,7 @@
 		(dnp no)
 		(uuid "b47638c5-411c-4ff8-9bcc-caf4f99c70e9")
 		(property "Reference" "#PWR032"
-			(at 135.89 22.86 0)
+			(at 134.62 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30221,7 +32341,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 131.826 17.272 0)
+			(at 130.556 17.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30229,7 +32349,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 19.05 0)
+			(at 134.62 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30238,7 +32358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 19.05 0)
+			(at 134.62 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30247,7 +32367,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 135.89 19.05 0)
+			(at 134.62 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30272,7 +32392,7 @@
 		(at 58.42 172.72 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -30295,7 +32415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x01_P1.27mm_Vertical"
 			(at 58.42 172.72 0)
 			(effects
 				(font
@@ -30430,7 +32550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 279.908 129.54 90)
 			(effects
 				(font
@@ -30449,6 +32569,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 278.13 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 278.13 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C23178"
+			(at 278.13 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 278.13 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0603WAF4703T5E"
 			(at 278.13 129.54 0)
 			(effects
 				(font
@@ -30500,7 +32656,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 51.7652 125.73 0)
 			(effects
 				(font
@@ -30519,6 +32675,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 50.8 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 50.8 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C307331"
+			(at 50.8 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 50.8 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KB54PNC"
 			(at 50.8 121.92 0)
 			(effects
 				(font
@@ -30561,7 +32753,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 157.48 80.01 0)
+			(at 153.162 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31115,7 +33307,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 197.612 101.6 90)
 			(effects
 				(font
@@ -31134,6 +33326,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 199.39 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 199.39 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C11702"
+			(at 199.39 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 199.39 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1001TCE"
 			(at 199.39 101.6 0)
 			(effects
 				(font
@@ -31185,7 +33413,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 211.7852 99.06 0)
 			(effects
 				(font
@@ -31204,6 +33432,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 210.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 210.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C52923"
+			(at 210.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 210.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
 			(at 210.82 102.87 0)
 			(effects
 				(font
@@ -31360,7 +33624,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 253.0348 20.32 0)
 			(effects
 				(font
@@ -31379,6 +33643,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 254 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 254 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C307331"
+			(at 254 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 254 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KB54PNC"
 			(at 254 24.13 0)
 			(effects
 				(font
@@ -31640,7 +33940,7 @@
 	)
 	(symbol
 		(lib_id "GLCS:DRV8424RGER")
-		(at 119.38 53.34 0)
+		(at 118.11 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31648,7 +33948,7 @@
 		(dnp no)
 		(uuid "d4832f5c-8433-4196-9da7-e04145bb1802")
 		(property "Reference" "U10"
-			(at 104.902 65.532 0)
+			(at 103.632 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31657,7 +33957,7 @@
 			)
 		)
 		(property "Value" "DRV8424RGER"
-			(at 103.632 67.818 0)
+			(at 102.362 67.818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31666,7 +33966,7 @@
 			)
 		)
 		(property "Footprint" "GLCS:Texas_RGE0024B_VQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
-			(at 119.38 53.34 0)
+			(at 118.11 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31675,7 +33975,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8425.pdf"
-			(at 119.38 53.34 0)
+			(at 118.11 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31684,7 +33984,43 @@
 			)
 		)
 		(property "Description" "35-V, 2.5-A bipolar stepper driver with integrated current sensing & 1/256 microstepping"
-			(at 119.38 53.34 0)
+			(at 118.11 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "X"
+			(at 118.11 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1518725"
+			(at 118.11 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 118.11 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "DRV8424RGER"
+			(at 118.11 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32040,7 +34376,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 47.498 85.09 90)
 			(effects
 				(font
@@ -32059,6 +34395,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 45.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 45.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C4184"
+			(at 45.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 45.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0603WAF2002T5E"
 			(at 45.72 85.09 0)
 			(effects
 				(font
@@ -32087,7 +34459,7 @@
 		(at 184.15 146.05 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -32111,7 +34483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 184.15 151.13 0)
 			(effects
 				(font
@@ -32152,7 +34524,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 96.52 41.91 0)
+		(at 95.25 41.91 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32162,7 +34534,7 @@
 		(fields_autoplaced yes)
 		(uuid "db733137-6175-4945-9ea8-82be2d9fca78")
 		(property "Reference" "R5"
-			(at 93.98 40.6399 0)
+			(at 92.71 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32171,7 +34543,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 93.98 43.1799 0)
+			(at 92.71 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32179,8 +34551,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 94.742 41.91 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 93.472 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32189,7 +34561,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 41.91 0)
+			(at 95.25 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32198,7 +34570,43 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 96.52 41.91 0)
+			(at 95.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 95.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25744"
+			(at 95.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 95.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
+			(at 95.25 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32356,7 +34764,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 205.74 29.21 0)
+		(at 205.74 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32365,7 +34773,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2f36e7f-e923-4221-ab80-d5691ba210f8")
 		(property "Reference" "#PWR090"
-			(at 205.74 33.02 0)
+			(at 205.74 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32374,7 +34782,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 205.74 24.13 0)
+			(at 205.74 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32382,7 +34790,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 29.21 0)
+			(at 205.74 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32391,7 +34799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 29.21 0)
+			(at 205.74 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32400,7 +34808,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 205.74 29.21 0)
+			(at 205.74 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32425,7 +34833,7 @@
 		(at 184.15 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e466c931-2f05-4bba-8d93-9613d97af686")
@@ -32448,7 +34856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GLCS:BatteryHolder_MYOUNG_BH-18650-B1BA002"
 			(at 184.15 140.716 90)
 			(effects
 				(font
@@ -32560,15 +34968,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 66.04 0)
+		(at 153.67 64.77 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e6344db6-888d-4a80-9fbe-c3d3541a9838")
-		(property "Reference" "#PWR082"
-			(at 81.28 72.39 0)
+		(uuid "e5c5ded4-9c67-475b-a26d-1e75160542dc")
+		(property "Reference" "#PWR088"
+			(at 153.67 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32577,7 +34986,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.216 67.564 0)
+			(at 157.734 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32586,7 +34995,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 66.04 0)
+			(at 153.67 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32595,7 +35004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 66.04 0)
+			(at 153.67 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32604,7 +35013,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 66.04 0)
+			(at 153.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4866c92-e1b6-4b6e-a62b-2b5ed47e06d7")
+		)
+		(instances
+			(project "stm32f1-battery-poc"
+				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.01 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6344db6-888d-4a80-9fbe-c3d3541a9838")
+		(property "Reference" "#PWR082"
+			(at 80.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 75.946 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32804,7 +35279,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 45.72 0)
+		(at 152.4 45.72 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32813,7 +35288,7 @@
 		(dnp no)
 		(uuid "e8448ebb-59f1-4562-bb2f-d99d834e0e28")
 		(property "Reference" "#PWR086"
-			(at 153.67 52.07 0)
+			(at 152.4 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32822,7 +35297,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.734 47.244 0)
+			(at 156.464 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32831,7 +35306,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 45.72 0)
+			(at 152.4 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32840,7 +35315,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 45.72 0)
+			(at 152.4 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32849,7 +35324,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 45.72 0)
+			(at 152.4 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33052,7 +35527,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 96.52 36.83 0)
+		(at 95.25 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33060,7 +35535,7 @@
 		(dnp no)
 		(uuid "eebb67a9-8ac6-476b-9fc1-e174fa68e092")
 		(property "Reference" "#PWR079"
-			(at 96.52 40.64 0)
+			(at 95.25 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33069,7 +35544,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 96.52 33.02 0)
+			(at 95.25 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33077,7 +35552,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 36.83 0)
+			(at 95.25 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33086,7 +35561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 36.83 0)
+			(at 95.25 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33095,7 +35570,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 96.52 36.83 0)
+			(at 95.25 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33583,7 +36058,7 @@
 		(at 184.15 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f4f54f2d-af7d-49d6-a550-df9d49ce1ff1")
@@ -33606,7 +36081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GLCS:BatteryHolder_MYOUNG_BH-18650-B1BA002"
 			(at 184.15 112.776 90)
 			(effects
 				(font
@@ -33675,7 +36150,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 263.1948 35.56 0)
 			(effects
 				(font
@@ -33694,6 +36169,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 264.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 264.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C307331"
+			(at 264.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 264.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KB54PNC"
 			(at 264.16 39.37 0)
 			(effects
 				(font
@@ -33744,7 +36255,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 263.652 151.13 90)
 			(effects
 				(font
@@ -33771,6 +36282,42 @@
 				(hide yes)
 			)
 		)
+		(property "Basic" "E"
+			(at 265.43 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C23156"
+			(at 265.43 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 265.43 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0603WAF3004T5E"
+			(at 265.43 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f4d0e79f-1dc7-4ee7-bcde-70f6c74317a0")
 		)
@@ -33788,7 +36335,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 118.11 27.94 0)
+		(at 116.84 27.94 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -33797,7 +36344,7 @@
 		(dnp no)
 		(uuid "fcbeb8ab-4176-4c95-b574-fc7b2cfd73aa")
 		(property "Reference" "C39"
-			(at 115.57 26.6635 0)
+			(at 114.3 26.6635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33806,7 +36353,7 @@
 			)
 		)
 		(property "Value" "22n"
-			(at 115.57 29.2035 0)
+			(at 114.3 29.2035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33814,8 +36361,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 118.11 27.94 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 116.84 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33824,7 +36371,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 27.94 0)
+			(at 116.84 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33833,7 +36380,43 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 118.11 27.94 0)
+			(at 116.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 116.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1532"
+			(at 116.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 116.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402B223K500NT"
+			(at 116.84 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33884,7 +36467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 26.9748 152.4 0)
 			(effects
 				(font
@@ -33903,6 +36486,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 27.94 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 27.94 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C440198"
+			(at 27.94 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 27.94 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM21BR61H106KE43L"
 			(at 27.94 148.59 0)
 			(effects
 				(font
@@ -33954,7 +36573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 203.708 151.13 90)
 			(effects
 				(font
@@ -33973,6 +36592,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 201.93 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 201.93 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25076"
+			(at 201.93 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 201.93 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1000TCE"
 			(at 201.93 151.13 0)
 			(effects
 				(font
@@ -34023,7 +36678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 218.1352 154.94 0)
 			(effects
 				(font
@@ -34042,6 +36697,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 217.17 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 217.17 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C307331"
+			(at 217.17 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 217.17 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KB54PNC"
 			(at 217.17 151.13 0)
 			(effects
 				(font
