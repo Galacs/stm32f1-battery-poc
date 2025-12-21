@@ -10986,12 +10986,12 @@
 		(uuid "227c70c3-7be4-4b20-954c-260871177a34")
 	)
 	(no_connect
-		(at 127 168.91)
-		(uuid "4dee5942-89d7-41ef-9ba9-fa79b468835f")
+		(at 127 166.37)
+		(uuid "429d8252-5033-4af3-a71e-2a1a2c2c9b67")
 	)
 	(no_connect
-		(at 127 171.45)
-		(uuid "75f926ac-6744-4539-800a-3d0bfe674815")
+		(at 127 163.83)
+		(uuid "588b3ae6-95d9-4c66-a16b-92a33a3d7ea4")
 	)
 	(no_connect
 		(at 240.03 127)
@@ -11254,6 +11254,16 @@
 			(type default)
 		)
 		(uuid "0f1da6c2-9e8a-48b5-9c8b-51524bab8d84")
+	)
+	(wire
+		(pts
+			(xy 113.03 171.45) (xy 127 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff979a3-2f26-47c5-a782-d9de4f241812")
 	)
 	(wire
 		(pts
@@ -12047,7 +12057,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 176.53) (xy 127 176.53)
+			(xy 116.84 176.53) (xy 127 176.53)
 		)
 		(stroke
 			(width 0)
@@ -12677,7 +12687,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 173.99) (xy 127 173.99)
+			(xy 116.84 173.99) (xy 127 173.99)
 		)
 		(stroke
 			(width 0)
@@ -13017,7 +13027,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 179.07) (xy 127 179.07)
+			(xy 116.84 179.07) (xy 127 179.07)
 		)
 		(stroke
 			(width 0)
@@ -13304,6 +13314,16 @@
 			(type default)
 		)
 		(uuid "66ebf213-3b63-42d5-ad86-f48db78843a1")
+	)
+	(wire
+		(pts
+			(xy 115.57 168.91) (xy 127 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66f7af15-305c-4304-b749-9deb66d37397")
 	)
 	(wire
 		(pts
@@ -13867,6 +13887,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 163.83) (xy 115.57 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "795fafe3-a3bc-4500-a89f-00a34b4a6df7")
+	)
+	(wire
+		(pts
 			(xy 118.11 102.87) (xy 118.11 104.14)
 		)
 		(stroke
@@ -14424,6 +14454,16 @@
 			(type default)
 		)
 		(uuid "971434a5-3a1c-44b6-bb41-39dbd25cdaeb")
+	)
+	(wire
+		(pts
+			(xy 113.03 166.37) (xy 100.33 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "973887d4-fad5-4049-9ac7-7b0e527cda17")
 	)
 	(wire
 		(pts
@@ -15004,6 +15044,16 @@
 			(type default)
 		)
 		(uuid "ad4305c8-da00-47d7-9080-ff5be5158943")
+	)
+	(wire
+		(pts
+			(xy 113.03 171.45) (xy 113.03 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae68962a-39eb-4b3c-bb5e-6eea63307716")
 	)
 	(wire
 		(pts
@@ -15957,7 +16007,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 181.61) (xy 127 181.61)
+			(xy 116.84 181.61) (xy 127 181.61)
 		)
 		(stroke
 			(width 0)
@@ -16004,16 +16054,6 @@
 			(type default)
 		)
 		(uuid "e2fcb7e1-193c-434f-af36-ba3e77ad03f3")
-	)
-	(wire
-		(pts
-			(xy 100.33 166.37) (xy 127 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e39096cf-60d4-47f8-b15a-5f8f6b736544")
 	)
 	(wire
 		(pts
@@ -16507,16 +16547,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 163.83) (xy 127 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4e4f3bd-94fe-4640-a994-d41e1b42039a")
-	)
-	(wire
-		(pts
 			(xy 153.67 49.53) (xy 152.4 49.53)
 		)
 		(stroke
@@ -16634,6 +16664,16 @@
 			(type default)
 		)
 		(uuid "f8509b48-9f6a-4a35-b4f0-f65bca667fc6")
+	)
+	(wire
+		(pts
+			(xy 115.57 163.83) (xy 115.57 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8c3358a-7a90-4428-89ea-31bc2fcb1500")
 	)
 	(wire
 		(pts
@@ -16845,7 +16885,7 @@
 		)
 		(uuid "30f368a5-fc03-4ffe-a654-b5fcd1e5d7e8")
 	)
-	(label "I2C1_SDA"
+	(label "I2C2_SDA"
 		(at 196.85 58.42 90)
 		(effects
 			(font
@@ -16885,6 +16925,16 @@
 		)
 		(uuid "3ff9880d-e952-4e15-971c-7d8a685062ca")
 	)
+	(label "I2C2_SDA"
+		(at 116.84 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "473afd22-c1b5-4726-a8e7-889447e19e09")
+	)
 	(label "LS3"
 		(at 30.48 52.07 0)
 		(effects
@@ -16916,7 +16966,7 @@
 		(uuid "551d8428-2693-4a2b-9669-c87b44aaf24e")
 	)
 	(label "~{SLEEP}"
-		(at 119.38 173.99 0)
+		(at 116.84 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16974,16 +17024,6 @@
 			(justify right bottom)
 		)
 		(uuid "670386b5-bec9-4a40-a8f8-b7c80a1631b8")
-	)
-	(label "I2C1_SCL"
-		(at 115.57 163.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6a58ca34-fdc2-461e-83de-31802d07be34")
 	)
 	(label "LS1"
 		(at 168.91 125.73 180)
@@ -17136,7 +17176,7 @@
 		(uuid "96bca17e-a3d6-40d2-98d0-2122d28f3973")
 	)
 	(label "INLB"
-		(at 119.38 179.07 0)
+		(at 116.84 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17144,6 +17184,16 @@
 			(justify left bottom)
 		)
 		(uuid "9e4ffdeb-164e-4089-b57b-d8c52cef30a3")
+	)
+	(label "I2C2_SCL"
+		(at 116.84 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9fed6e40-a2b8-49f0-9a82-d1de23a8fd6a")
 	)
 	(label "SOB"
 		(at 168.91 120.65 180)
@@ -17166,7 +17216,7 @@
 		(uuid "ac13c8ca-2c40-4799-a1c3-d919b0b3c5e0")
 	)
 	(label "INLA"
-		(at 119.38 176.53 0)
+		(at 116.84 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17336,7 +17386,7 @@
 		(uuid "e4d51455-6d06-42ed-8552-d04765658a11")
 	)
 	(label "INLC"
-		(at 119.38 181.61 0)
+		(at 116.84 181.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17355,7 +17405,7 @@
 		)
 		(uuid "e7a0ab6c-8a3a-4f77-a6cb-ca3136152522")
 	)
-	(label "I2C1_SCL"
+	(label "I2C2_SCL"
 		(at 191.77 58.42 90)
 		(effects
 			(font
@@ -17404,16 +17454,6 @@
 			(justify left bottom)
 		)
 		(uuid "f0ad0538-07e5-4bd7-a330-f54ebc54d639")
-	)
-	(label "I2C1_SDA"
-		(at 115.57 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f6edbc29-da4b-4324-aaee-e12f01c6fd22")
 	)
 	(label "~{FAULT}"
 		(at 222.25 62.23 0)
@@ -19285,7 +19325,6 @@
 		)
 		(pin "46"
 			(uuid "9f0cda6b-43dd-4223-82b4-527a9625209b")
-			(alternate "I2C1_SDA")
 		)
 		(pin "26"
 			(uuid "e57044dc-11f8-4e1b-a78e-83ac736999b4")
@@ -19296,6 +19335,7 @@
 		)
 		(pin "22"
 			(uuid "dcf148c5-bf26-449d-891c-9f62756e0fdc")
+			(alternate "I2C2_SDA")
 		)
 		(pin "17"
 			(uuid "29a383e9-5ed6-4517-8e58-64c1955f7520")
@@ -19415,10 +19455,10 @@
 		)
 		(pin "45"
 			(uuid "70273c8a-04c0-403c-9251-e09b60f1ab35")
-			(alternate "I2C1_SCL")
 		)
 		(pin "21"
 			(uuid "dab9fa96-c6e9-425f-8fde-590382d19a09")
+			(alternate "I2C2_SCL")
 		)
 		(pin "24"
 			(uuid "cf30487b-9c6c-4a3d-ac3c-2aaac81b4275")
