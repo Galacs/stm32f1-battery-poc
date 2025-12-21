@@ -16845,6 +16845,16 @@
 		)
 		(uuid "04c58a54-e1ba-4426-8429-56945fa54fa8")
 	)
+	(label "LS1"
+		(at 168.91 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "071801ec-9414-4522-864f-848c070ebe52")
+	)
 	(label "SYS_JTDO"
 		(at 110.49 180.34 180)
 		(effects
@@ -16945,6 +16955,16 @@
 		)
 		(uuid "48088d8c-1a8c-4577-83ff-dd273f3c77a7")
 	)
+	(label "LS3"
+		(at 168.91 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4883979e-a37b-4f9f-bba9-b0baa746d5c5")
+	)
 	(label "DIR"
 		(at 116.84 173.99 0)
 		(effects
@@ -17024,16 +17044,6 @@
 			(justify right bottom)
 		)
 		(uuid "670386b5-bec9-4a40-a8f8-b7c80a1631b8")
-	)
-	(label "LS1"
-		(at 168.91 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "704ede6e-9505-46d0-a646-2682ecc4e33a")
 	)
 	(label "INHC"
 		(at 222.25 46.99 0)
@@ -17264,16 +17274,6 @@
 			(justify left bottom)
 		)
 		(uuid "b1e79cd4-2ee7-46f6-a23b-d664c49c508f")
-	)
-	(label "LS3"
-		(at 168.91 130.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b35a510c-f5c0-48fe-8ced-271fdb5dfcc0")
 	)
 	(label "INLB"
 		(at 222.25 54.61 0)
