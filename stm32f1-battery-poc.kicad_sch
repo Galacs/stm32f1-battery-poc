@@ -18590,7 +18590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical_SMD"
 			(at 86.36 62.23 0)
 			(effects
 				(font
@@ -20244,7 +20244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical_SMD_Pin1Left"
 			(at 73.66 143.51 0)
 			(effects
 				(font
@@ -20899,7 +20899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Vertical_SMD"
 			(at 86.36 50.8 0)
 			(effects
 				(font
@@ -21486,7 +21486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x01_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x01_P1.27mm_Vertical_SMD"
 			(at 120.65 148.59 0)
 			(effects
 				(font
@@ -29868,7 +29868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x01_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x01_P1.27mm_Vertical_SMD"
 			(at 24.13 180.34 0)
 			(effects
 				(font
@@ -30841,7 +30841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical_SMD"
 			(at 161.29 52.07 0)
 			(effects
 				(font
@@ -31513,7 +31513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Vertical_SMD"
 			(at 147.32 60.96 0)
 			(effects
 				(font
@@ -32061,7 +32061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Vertical_SMD"
 			(at 147.32 68.58 0)
 			(effects
 				(font
@@ -33717,7 +33717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x01_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x01_P1.27mm_Vertical_SMD"
 			(at 58.42 172.72 0)
 			(effects
 				(font
