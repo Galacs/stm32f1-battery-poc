@@ -12427,6 +12427,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 143.51) (xy 127 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b85dbdc-c490-4254-953e-1e0e052e49c8")
+	)
+	(wire
+		(pts
 			(xy 274.32 29.21) (xy 274.32 27.94)
 		)
 		(stroke
@@ -12684,16 +12694,6 @@
 			(type default)
 		)
 		(uuid "47d4ff57-a268-4294-a369-43fbadcc835e")
-	)
-	(wire
-		(pts
-			(xy 116.84 173.99) (xy 127 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "489334ee-8f8b-4248-91e9-0cad75c3ad96")
 	)
 	(wire
 		(pts
@@ -13764,16 +13764,6 @@
 			(type default)
 		)
 		(uuid "75658d7f-76b2-40cc-9e48-ae652294a291")
-	)
-	(wire
-		(pts
-			(xy 123.19 143.51) (xy 127 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "758ff958-bf9f-49e2-8c9d-79461d730776")
 	)
 	(wire
 		(pts
@@ -15144,6 +15134,16 @@
 			(type default)
 		)
 		(uuid "b17f705a-7f89-43d2-9e21-9a3a0d49d90e")
+	)
+	(wire
+		(pts
+			(xy 116.84 173.99) (xy 127 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b24a0409-9fda-40f0-a916-157524e6eb9d")
 	)
 	(wire
 		(pts
@@ -16945,6 +16945,16 @@
 		)
 		(uuid "48088d8c-1a8c-4577-83ff-dd273f3c77a7")
 	)
+	(label "DIR"
+		(at 116.84 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b5f0369-cb1b-47fd-bbeb-722d9385f455")
+	)
 	(label "INHA"
 		(at 168.91 135.89 180)
 		(effects
@@ -16964,16 +16974,6 @@
 			(justify right bottom)
 		)
 		(uuid "551d8428-2693-4a2b-9669-c87b44aaf24e")
-	)
-	(label "~{SLEEP}"
-		(at 116.84 173.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "57ce61e4-3c6d-4e0d-9244-af178514c98e")
 	)
 	(label "DIR"
 		(at 100.33 39.37 0)
@@ -17114,6 +17114,16 @@
 			(justify left bottom)
 		)
 		(uuid "7cb60568-99d0-4ae1-b0b5-1025ec1882b9")
+	)
+	(label "~{SLEEP}"
+		(at 119.38 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cfbc9f7-eccb-476d-8555-c5d8734bc93b")
 	)
 	(label "NRST"
 		(at 113.03 110.49 0)
@@ -17414,16 +17424,6 @@
 			(justify left bottom)
 		)
 		(uuid "eda7af70-6fc3-4efe-b357-a6753f7cf8eb")
-	)
-	(label "DIR"
-		(at 123.19 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ef324b38-b6d6-4f43-85d3-ac16aaeb4ccd")
 	)
 	(label "XTAL_O"
 		(at 124.46 128.27 270)
