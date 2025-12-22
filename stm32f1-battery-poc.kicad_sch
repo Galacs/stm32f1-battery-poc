@@ -9951,15 +9951,15 @@
 		)
 		(uuid "0321f555-6e22-415d-91a1-40b7f45a4c7f")
 	)
-	(text "If = 21mA"
+	(text "If = 45mA"
 		(exclude_from_sim no)
-		(at 54.356 49.784 0)
+		(at 53.086 35.306 0)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
 		)
-		(uuid "105b5ccd-5a24-4f33-bb8d-de51fb2100c5")
+		(uuid "1a502e6d-6a33-44c1-b66c-2112b2aaf872")
 	)
 	(text "LDOs"
 		(exclude_from_sim no)
@@ -10031,6 +10031,16 @@
 			)
 		)
 		(uuid "601199ea-e958-421e-a842-be0f4cce5940")
+	)
+	(text "If = 45mA"
+		(exclude_from_sim no)
+		(at 53.086 49.276 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "61b5fabf-87c6-439b-a748-f45afcbf1132")
 	)
 	(text "LDO select"
 		(exclude_from_sim no)
@@ -10152,16 +10162,6 @@
 			)
 		)
 		(uuid "be2bcd18-616a-42cf-af34-5b9011c2e446")
-	)
-	(text "If = 30mA"
-		(exclude_from_sim no)
-		(at 54.356 35.814 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-		)
-		(uuid "c0454cf0-0b38-4ead-91cd-9efa0be9e39f")
 	)
 	(text "I2C"
 		(exclude_from_sim no)
@@ -25164,109 +25164,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 55.88 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4897c0bf-5e99-48e3-aa41-6addbba7952c")
-		(property "Reference" "R11"
-			(at 55.88 40.386 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "75"
-			(at 55.88 42.418 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 55.88 39.878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 55.88 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Basic" "Y"
-			(at 55.88 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C4275"
-			(at 55.88 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Uniroyal Elec"
-			(at 55.88 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0603WAF750JT5E"
-			(at 55.88 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "85864e33-160d-4b69-824e-a63bd4223639")
-		)
-		(pin "2"
-			(uuid "f78f234d-584f-469f-8a2f-6c0340c82030")
-		)
-		(instances
-			(project "stm32f1-battery-poc"
-				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 170.18 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26360,109 +26257,6 @@
 			(project "stm32f1-battery-poc"
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
 					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 55.88 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "55632a6d-a75b-46f8-a482-07cd05f78dc2")
-		(property "Reference" "R12"
-			(at 55.88 54.356 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 55.88 56.388 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 55.88 53.848 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 55.88 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Basic" "Y"
-			(at 55.88 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C22775"
-			(at 55.88 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Uniroyal Elec"
-			(at 55.88 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0603WAF1000T5E"
-			(at 55.88 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0beb699-25c1-4d4f-a530-cd4761701029")
-		)
-		(pin "2"
-			(uuid "a4269938-c981-4d8a-b1f9-ccad26f9e5d9")
-		)
-		(instances
-			(project "stm32f1-battery-poc"
-				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
-					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -27595,6 +27389,109 @@
 			(project "stm32f1-battery-poc"
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
 					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 55.88 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "680d21c4-b03e-46d2-89b3-4e3b071bd14b")
+		(property "Reference" "R12"
+			(at 55.88 54.356 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47"
+			(at 55.88 56.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 55.88 53.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 55.88 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C23182"
+			(at 55.88 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 55.88 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0603WAF470JT5E"
+			(at 55.88 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3007dac4-ad66-4261-bcbf-38861bdf521c")
+		)
+		(pin "2"
+			(uuid "aa60a46a-12f7-44b9-963e-b27aa7e8c15a")
+		)
+		(instances
+			(project "stm32f1-battery-poc"
+				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -34457,6 +34354,109 @@
 			(project "stm32f1-battery-poc"
 				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 55.88 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c204adb5-a387-4521-b364-de0a85df179d")
+		(property "Reference" "R11"
+			(at 55.88 40.386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47"
+			(at 55.88 42.418 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 55.88 39.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 55.88 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C23182"
+			(at 55.88 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 55.88 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0603WAF470JT5E"
+			(at 55.88 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55e46019-7840-4fb5-856c-022c11a9a395")
+		)
+		(pin "2"
+			(uuid "44d9ec11-798c-4c87-a907-1cf0b28e2aa1")
+		)
+		(instances
+			(project "stm32f1-battery-poc"
+				(path "/4c4b6aca-9f6a-4aac-860b-eb4aeeeecc92"
+					(reference "R11")
 					(unit 1)
 				)
 			)
