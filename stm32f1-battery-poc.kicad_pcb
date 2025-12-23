@@ -17286,7 +17286,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C1658"
+		(property "JLCPCB Part #" "C1648"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17299,7 +17299,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+		(property "Manufacturer" "Samsung Electro-Mechanics "
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17312,7 +17312,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0603CG300J500NT"
+		(property "Manufacturer Part Number" "CL10C200JB8NNNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17891,7 +17891,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C1658"
+		(property "JLCPCB Part #" "C1648"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17904,7 +17904,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+		(property "Manufacturer" "Samsung Electro-Mechanics "
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17917,7 +17917,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0603CG300J500NT"
+		(property "Manufacturer Part Number" "CL10C200JB8NNNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

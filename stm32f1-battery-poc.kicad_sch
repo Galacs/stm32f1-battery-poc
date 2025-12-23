@@ -11219,16 +11219,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 138.43) (xy 104.14 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d2cbec3-f650-4c39-b6a8-16d1b9ea2903")
-	)
-	(wire
-		(pts
 			(xy 86.36 189.23) (xy 86.36 187.96)
 		)
 		(stroke
@@ -23186,7 +23176,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C1658"
+		(property "JLCPCB Part #" "C1648"
 			(at 104.14 135.89 90)
 			(effects
 				(font
@@ -23195,7 +23185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+		(property "Manufacturer" "Samsung Electro-Mechanics "
 			(at 104.14 135.89 90)
 			(effects
 				(font
@@ -23204,7 +23194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603CG300J500NT"
+		(property "Manufacturer Part Number" "CL10C200JB8NNNC"
 			(at 104.14 135.89 90)
 			(effects
 				(font
@@ -25712,7 +25702,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C1658"
+		(property "JLCPCB Part #" "C1648"
 			(at 104.14 125.73 90)
 			(effects
 				(font
@@ -25721,7 +25711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+		(property "Manufacturer" "Samsung Electro-Mechanics "
 			(at 104.14 125.73 90)
 			(effects
 				(font
@@ -25730,7 +25720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603CG300J500NT"
+		(property "Manufacturer Part Number" "CL10C200JB8NNNC"
 			(at 104.14 125.73 90)
 			(effects
 				(font
@@ -36191,7 +36181,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 138.43 0)
+		(at 99.06 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36200,7 +36190,7 @@
 		(fields_autoplaced yes)
 		(uuid "dfe9ca18-f8e5-4d7b-b7fb-191968eda5b4")
 		(property "Reference" "#PWR041"
-			(at 104.14 144.78 0)
+			(at 99.06 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36209,7 +36199,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 143.51 0)
+			(at 99.06 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36218,7 +36208,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 138.43 0)
+			(at 99.06 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36227,7 +36217,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 138.43 0)
+			(at 99.06 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36236,7 +36226,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 138.43 0)
+			(at 99.06 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
