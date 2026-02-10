@@ -11,6 +11,7 @@ STM32F1 based pcb to test 3s Li-ion cells protection with 3 phases brushless and
 - DRV8311 (BLDC driver)
 - DRV8424 (Stepper driver)
 - BQ77905 (3S battery protection)
+- SN65HVD (CAN transceiver)
 
 ## Top preview
 
