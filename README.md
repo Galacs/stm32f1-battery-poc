@@ -15,6 +15,14 @@ STM32F1 based pcb to test 3s Li-ion cells protection with 3 phases brushless and
 
 ## Top preview
 
+<img width="947" height="862" alt="image" src="https://github.com/user-attachments/assets/918fe730-74ee-4131-91d2-0d4d246c28f1" />
+<img width="925" height="855" alt="image" src="https://github.com/user-attachments/assets/7945cd56-dd74-40e5-9945-c4d2ccfa016e" />
 
 ## Preview 3d render
 
+<img width="1075" height="880" alt="image" src="https://github.com/user-attachments/assets/c98fdb5c-770f-415a-8bbd-94a59f5e23e3" />
+<img width="1031" height="898" alt="image" src="https://github.com/user-attachments/assets/2e86f84f-38ec-47d2-89a6-0d4ebeecdd82" />
+
+## Pictures
+
+<img width="686" height="737" alt="image" src="https://github.com/user-attachments/assets/69f21146-acf8-4543-9214-e5cd3f910d1c" />
